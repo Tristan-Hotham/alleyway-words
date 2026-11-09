@@ -1,0 +1,1012 @@
+{
+ "n": {
+  "ways_raw": 30481,
+  "candidates": 3541,
+  "dropped": 159,
+  "dropped_by_hand": 61,
+  "alleys": 3382,
+  "ways_in_alleys": 6638,
+  "regional": 1795,
+  "general": 1587,
+  "words_found": 24,
+  "dropped_pc": 4.490256989550974,
+  "merged_ways": 3256
+ },
+ "words": {
+  "ginnel": {
+   "n": 26,
+   "label": "ginnel",
+   "kind": "regional",
+   "path_pc": 88.46153846153845,
+   "top_county": "West Yorkshire",
+   "top_county_n": 9,
+   "top_county_pc": 34.61538461538461,
+   "top_town": "Yeadon",
+   "top_town_n": 2,
+   "counties": 11,
+   "scotland_pc": 0.0,
+   "lat": 53.56860423076924,
+   "lon": -2.049003076923077,
+   "home_pc": 88.46153846153845,
+   "home_n": 23,
+   "home": [
+    "West Yorkshire",
+    "Greater Manchester",
+    "Lancashire",
+    "South Yorkshire",
+    "North Yorkshire",
+    "Merseyside",
+    "Cumbria",
+    "Derbyshire"
+   ]
+  },
+  "snicket": {
+   "n": 18,
+   "label": "snicket",
+   "kind": "regional",
+   "path_pc": 100.0,
+   "top_county": "West Yorkshire",
+   "top_county_n": 7,
+   "top_county_pc": 38.888888888888886,
+   "top_town": "Ilkley",
+   "top_town_n": 4,
+   "counties": 10,
+   "scotland_pc": 0.0,
+   "lat": 53.34399611111112,
+   "lon": -1.498708888888889,
+   "home_pc": 55.55555555555556,
+   "home_n": 10,
+   "home": [
+    "West Yorkshire",
+    "North Yorkshire",
+    "South Yorkshire",
+    "East Riding of Yorkshire"
+   ]
+  },
+  "twitten": {
+   "n": 33,
+   "label": "twitten",
+   "kind": "regional",
+   "path_pc": 78.78787878787878,
+   "top_county": "West Sussex",
+   "top_county_n": 15,
+   "top_county_pc": 45.45454545454545,
+   "top_town": "Haywards Heath",
+   "top_town_n": 5,
+   "counties": 6,
+   "scotland_pc": 0.0,
+   "lat": 51.008631212121216,
+   "lon": -0.08732060606060607,
+   "home_pc": 87.87878787878788,
+   "home_n": 29,
+   "home": [
+    "East Sussex",
+    "West Sussex"
+   ]
+  },
+  "twitchel": {
+   "n": 8,
+   "label": "twitchel",
+   "kind": "regional",
+   "path_pc": 37.5,
+   "top_county": "Nottinghamshire",
+   "top_county_n": 3,
+   "top_county_pc": 37.5,
+   "top_town": "Biggleswade",
+   "top_town_n": 1,
+   "counties": 6,
+   "scotland_pc": 0.0,
+   "lat": 52.843488750000006,
+   "lon": -0.9011075,
+   "home_pc": 75.0,
+   "home_n": 6,
+   "home": [
+    "Nottinghamshire",
+    "Derbyshire",
+    "Lincolnshire",
+    "South Yorkshire"
+   ]
+  },
+  "jitty": {
+   "n": 32,
+   "label": "jitty or gitty",
+   "kind": "regional",
+   "path_pc": 84.375,
+   "top_county": "Leicestershire",
+   "top_county_n": 8,
+   "top_county_pc": 25.0,
+   "top_town": "Loughborough",
+   "top_town_n": 4,
+   "counties": 10,
+   "scotland_pc": 0.0,
+   "lat": 52.6456978125,
+   "lon": -1.208215,
+   "home_pc": 78.125,
+   "home_n": 25,
+   "home": [
+    "Leicestershire",
+    "Northamptonshire",
+    "Rutland",
+    "Lincolnshire",
+    "Nottinghamshire",
+    "Derbyshire",
+    "Warwickshire",
+    "West Midlands"
+   ]
+  },
+  "chare": {
+   "n": 45,
+   "label": "chare",
+   "kind": "regional",
+   "path_pc": 37.77777777777778,
+   "top_county": "Tyne and Wear",
+   "top_county_n": 20,
+   "top_county_pc": 44.44444444444444,
+   "top_town": "Newcastle upon Tyne",
+   "top_town_n": 15,
+   "counties": 3,
+   "scotland_pc": 0.0,
+   "lat": 54.88209222222223,
+   "lon": -1.609887111111111,
+   "home_pc": 100.0,
+   "home_n": 45,
+   "home": [
+    "Tyne and Wear",
+    "Durham",
+    "Northumberland"
+   ]
+  },
+  "wynd": {
+   "n": 957,
+   "label": "wynd",
+   "kind": "regional",
+   "path_pc": 22.152560083594565,
+   "top_county": "Fife",
+   "top_county_n": 148,
+   "top_county_pc": 15.464994775339603,
+   "top_town": "Kirkcaldy",
+   "top_town_n": 33,
+   "counties": 48,
+   "scotland_pc": 88.81922675026124,
+   "lat": 55.932049864158834,
+   "lon": -3.2849127586206897
+  },
+  "vennel": {
+   "n": 50,
+   "label": "vennel",
+   "kind": "regional",
+   "path_pc": 54.0,
+   "top_county": "Perth and Kinross",
+   "top_county_n": 7,
+   "top_county_pc": 14.0,
+   "top_town": "Perth",
+   "top_town_n": 7,
+   "counties": 20,
+   "scotland_pc": 94.0,
+   "lat": 55.8017054,
+   "lon": -3.6892576000000004
+  },
+  "close": {
+   "n": 253,
+   "label": "close (Scotland)",
+   "kind": "regional",
+   "path_pc": 100.0,
+   "top_county": "City of Edinburgh",
+   "top_county_n": 85,
+   "top_county_pc": 33.59683794466403,
+   "top_town": "Edinburgh",
+   "top_town_n": 78,
+   "counties": 19,
+   "scotland_pc": 100.0,
+   "lat": 56.27224747035573,
+   "lon": -3.0625935968379445
+  },
+  "pend": {
+   "n": 24,
+   "label": "pend",
+   "kind": "regional",
+   "path_pc": 54.166666666666664,
+   "top_county": "Dundee City",
+   "top_county_n": 5,
+   "top_county_pc": 20.833333333333332,
+   "top_town": "Dundee",
+   "top_town_n": 5,
+   "counties": 12,
+   "scotland_pc": 100.0,
+   "lat": 56.168685,
+   "lon": -3.1626708333333333
+  },
+  "entry": {
+   "n": 81,
+   "label": "entry",
+   "kind": "regional",
+   "path_pc": 71.60493827160494,
+   "top_county": "City of Edinburgh",
+   "top_county_n": 12,
+   "top_county_pc": 14.814814814814815,
+   "top_town": "Edinburgh",
+   "top_town_n": 12,
+   "counties": 29,
+   "scotland_pc": 45.67901234567901,
+   "lat": 54.46838333333334,
+   "lon": -2.892372716049383
+  },
+  "loke": {
+   "n": 188,
+   "label": "loke",
+   "kind": "regional",
+   "path_pc": 36.17021276595745,
+   "top_county": "Norfolk",
+   "top_county_n": 174,
+   "top_county_pc": 92.55319148936171,
+   "top_town": "North Walsham",
+   "top_town_n": 17,
+   "counties": 3,
+   "scotland_pc": 0.0,
+   "lat": 52.66581234042553,
+   "lon": 1.3262243617021277,
+   "home_pc": 98.40425531914893,
+   "home_n": 185,
+   "home": [
+    "Norfolk",
+    "Suffolk"
+   ]
+  },
+  "shut": {
+   "n": 6,
+   "label": "shut",
+   "kind": "regional",
+   "path_pc": 100.0,
+   "top_county": "Shropshire",
+   "top_county_n": 6,
+   "top_county_pc": 100.0,
+   "top_town": "Shrewsbury",
+   "top_town_n": 3,
+   "counties": 1,
+   "scotland_pc": 0.0,
+   "lat": 52.63468666666666,
+   "lon": -2.7287233333333334,
+   "home_pc": 100.0,
+   "home_n": 6,
+   "home": [
+    "Shropshire"
+   ]
+  },
+  "ope": {
+   "n": 32,
+   "label": "ope",
+   "kind": "regional",
+   "path_pc": 59.375,
+   "top_county": "Devon",
+   "top_county_n": 17,
+   "top_county_pc": 53.125,
+   "top_town": "Plymouth",
+   "top_town_n": 15,
+   "counties": 4,
+   "scotland_pc": 0.0,
+   "lat": 50.4011475,
+   "lon": -4.1916159375,
+   "home_pc": 96.875,
+   "home_n": 31,
+   "home": [
+    "Devon",
+    "Cornwall",
+    "Dorset"
+   ]
+  },
+  "drang": {
+   "n": 11,
+   "label": "drang or drong",
+   "kind": "regional",
+   "path_pc": 72.72727272727273,
+   "top_county": "Cornwall",
+   "top_county_n": 3,
+   "top_county_pc": 27.272727272727273,
+   "top_town": "Bideford",
+   "top_town_n": 1,
+   "counties": 5,
+   "scotland_pc": 0.0,
+   "lat": 50.98392454545455,
+   "lon": -4.003955454545455,
+   "home_pc": 81.81818181818183,
+   "home_n": 9,
+   "home": [
+    "Somerset",
+    "Devon",
+    "Cornwall"
+   ]
+  },
+  "lonnen": {
+   "n": 24,
+   "label": "lonnen",
+   "kind": "regional",
+   "path_pc": 37.5,
+   "top_county": "Tyne and Wear",
+   "top_county_n": 11,
+   "top_county_pc": 45.833333333333336,
+   "top_town": "Blaydon",
+   "top_town_n": 6,
+   "counties": 4,
+   "scotland_pc": 0.0,
+   "lat": 54.86909291666666,
+   "lon": -1.7701645833333333,
+   "home_pc": 95.83333333333334,
+   "home_n": 23,
+   "home": [
+    "Tyne and Wear",
+    "Durham",
+    "Northumberland",
+    "Cumbria"
+   ]
+  },
+  "gully": {
+   "n": 6,
+   "label": "gully",
+   "kind": "regional",
+   "path_pc": 100.0,
+   "top_county": "Bristol",
+   "top_county_n": 3,
+   "top_county_pc": 50.0,
+   "top_town": "Bristol",
+   "top_town_n": 3,
+   "counties": 4,
+   "scotland_pc": 16.666666666666664,
+   "lat": 52.267148333333346,
+   "lon": -2.888881666666667
+  },
+  "tenfoot": {
+   "n": 1,
+   "label": "tenfoot",
+   "kind": "regional",
+   "path_pc": 100.0,
+   "top_county": "East Riding of Yorkshire",
+   "top_county_n": 1,
+   "top_county_pc": 100.0,
+   "top_town": "Hessle",
+   "top_town_n": 1,
+   "counties": 1,
+   "scotland_pc": 0.0,
+   "lat": 53.74154,
+   "lon": -0.39958
+  },
+  "alley": {
+   "n": 484,
+   "label": "alley",
+   "kind": "general",
+   "path_pc": 87.60330578512396,
+   "top_county": "Greater London",
+   "top_county_n": 102,
+   "top_county_pc": 21.074380165289256,
+   "top_town": "London",
+   "top_town_n": 102,
+   "counties": 57,
+   "scotland_pc": 1.6528925619834711,
+   "lat": 52.03379487603306,
+   "lon": -0.6440759090909092
+  },
+  "passage": {
+   "n": 671,
+   "label": "passage",
+   "kind": "general",
+   "path_pc": 87.63040238450075,
+   "top_county": "Greater London",
+   "top_county_n": 244,
+   "top_county_pc": 36.36363636363637,
+   "top_town": "London",
+   "top_town_n": 244,
+   "counties": 49,
+   "scotland_pc": 0.14903129657228018,
+   "lat": 51.93287020864382,
+   "lon": -0.9309544411326379
+  },
+  "steps": {
+   "n": 393,
+   "label": "steps",
+   "kind": "general",
+   "path_pc": 97.20101781170484,
+   "top_county": "Devon",
+   "top_county_n": 36,
+   "top_county_pc": 9.16030534351145,
+   "top_town": "London",
+   "top_town_n": 27,
+   "counties": 66,
+   "scotland_pc": 17.8117048346056,
+   "lat": 52.93615949109415,
+   "lon": -2.0629589058524176
+  },
+  "backway": {
+   "n": 11,
+   "label": "backway",
+   "kind": "general",
+   "path_pc": 54.54545454545454,
+   "top_county": "Devon",
+   "top_county_n": 2,
+   "top_county_pc": 18.181818181818183,
+   "top_town": "King's Lynn",
+   "top_town_n": 2,
+   "counties": 7,
+   "scotland_pc": 0.0,
+   "lat": 51.600370909090906,
+   "lon": -1.5389418181818184
+  },
+  "cut": {
+   "n": 26,
+   "label": "cut",
+   "kind": "general",
+   "path_pc": 100.0,
+   "top_county": "Durham",
+   "top_county_n": 7,
+   "top_county_pc": 26.923076923076923,
+   "top_town": "Stockton-on-Tees",
+   "top_town_n": 2,
+   "counties": 17,
+   "scotland_pc": 11.538461538461538,
+   "lat": 53.425285,
+   "lon": -1.6262849999999998
+  },
+  "slype": {
+   "n": 2,
+   "label": "slype",
+   "kind": "general",
+   "path_pc": 0.0,
+   "top_county": "Hertfordshire",
+   "top_county_n": 2,
+   "top_county_pc": 100.0,
+   "top_town": "Harpenden",
+   "top_town_n": 2,
+   "counties": 1,
+   "scotland_pc": 0.0,
+   "lat": 51.833725,
+   "lon": -0.31005499999999997
+  }
+ },
+ "sussex_twitten_n": 29,
+ "norfolk_loke_pc": 92.5531914893617,
+ "scot_words_pc": {
+  "close": 100.0,
+  "pend": 100.0,
+  "vennel": 94.0,
+  "wynd": 88.81922675026124
+ },
+ "wynd": {
+  "scotland_n": 850,
+  "ne_england_n": 91,
+  "path_pc": 22.152560083594565,
+  "road_pc": 77.84743991640543
+ },
+ "close": {
+  "edinburgh_n": 85,
+  "edinburgh_pc": 33.59683794466403
+ },
+ "nations": {
+  "England": {
+   "n": 2016,
+   "regional_pc": 28.075396825396826
+  },
+  "Northern Ireland": {
+   "n": 16,
+   "regional_pc": 75.0
+  },
+  "Scotland": {
+   "n": 1294,
+   "regional_pc": 93.66306027820711
+  },
+  "Wales": {
+   "n": 56,
+   "regional_pc": 8.928571428571429
+  }
+ },
+ "london": {
+  "n": 375,
+  "regional_n": 2,
+  "general_pc": 99.46666666666667,
+  "passage_n": 244,
+  "alley_n": 102
+ },
+ "towns_all": [
+  {
+   "town": "London",
+   "n": 375,
+   "top": "passage",
+   "regional": 2,
+   "words": 5
+  },
+  {
+   "town": "Edinburgh",
+   "n": 127,
+   "top": "close",
+   "regional": 116,
+   "words": 7
+  },
+  {
+   "town": "Hastings",
+   "n": 38,
+   "top": "passage",
+   "regional": 1,
+   "words": 5
+  },
+  {
+   "town": "Kirkcaldy",
+   "n": 37,
+   "top": "wynd",
+   "regional": 37,
+   "words": 4
+  },
+  {
+   "town": "Birmingham",
+   "n": 34,
+   "top": "passage",
+   "regional": 0,
+   "words": 2
+  },
+  {
+   "town": "Dundee",
+   "n": 32,
+   "top": "wynd",
+   "regional": 27,
+   "words": 6
+  },
+  {
+   "town": "Aberdeen",
+   "n": 30,
+   "top": "wynd",
+   "regional": 25,
+   "words": 3
+  },
+  {
+   "town": "Norwich",
+   "n": 29,
+   "top": "alley",
+   "regional": 7,
+   "words": 3
+  },
+  {
+   "town": "Elgin",
+   "n": 27,
+   "top": "close",
+   "regional": 27,
+   "words": 2
+  },
+  {
+   "town": "Newcastle upon Tyne",
+   "n": 24,
+   "top": "chare",
+   "regional": 23,
+   "words": 5
+  },
+  {
+   "town": "Shrewsbury",
+   "n": 23,
+   "top": "passage",
+   "regional": 3,
+   "words": 4
+  },
+  {
+   "town": "Bristol",
+   "n": 22,
+   "top": "steps",
+   "regional": 3,
+   "words": 4
+  }
+ ],
+ "towns_regional": [
+  {
+   "town": "Edinburgh",
+   "regional": 116,
+   "top": "close",
+   "n": 127
+  },
+  {
+   "town": "Kirkcaldy",
+   "regional": 37,
+   "top": "wynd",
+   "n": 37
+  },
+  {
+   "town": "Dundee",
+   "regional": 27,
+   "top": "wynd",
+   "n": 32
+  },
+  {
+   "town": "Elgin",
+   "regional": 27,
+   "top": "close",
+   "n": 27
+  },
+  {
+   "town": "Aberdeen",
+   "regional": 25,
+   "top": "wynd",
+   "n": 30
+  },
+  {
+   "town": "Newcastle upon Tyne",
+   "regional": 23,
+   "top": "chare",
+   "n": 24
+  },
+  {
+   "town": "Cambuslang",
+   "regional": 19,
+   "top": "wynd",
+   "n": 19
+  },
+  {
+   "town": "Irvine",
+   "regional": 19,
+   "top": "wynd",
+   "n": 19
+  },
+  {
+   "town": "Stirling",
+   "regional": 18,
+   "top": "wynd",
+   "n": 18
+  },
+  {
+   "town": "North Walsham",
+   "regional": 17,
+   "top": "loke",
+   "n": 17
+  },
+  {
+   "town": "Methil",
+   "regional": 16,
+   "top": "wynd",
+   "n": 17
+  },
+  {
+   "town": "Kilwinning",
+   "regional": 16,
+   "top": "wynd",
+   "n": 16
+  }
+ ],
+ "towns_most_words": [
+  {
+   "town": "Edinburgh",
+   "words": 7,
+   "n": 127
+  },
+  {
+   "town": "Dundee",
+   "words": 6,
+   "n": 32
+  },
+  {
+   "town": "London",
+   "words": 5,
+   "n": 375
+  },
+  {
+   "town": "Hastings",
+   "words": 5,
+   "n": 38
+  },
+  {
+   "town": "Newcastle upon Tyne",
+   "words": 5,
+   "n": 24
+  },
+  {
+   "town": "Durham",
+   "words": 5,
+   "n": 9
+  }
+ ],
+ "word_town": {
+  "chare": [
+   {
+    "town": "Newcastle upon Tyne",
+    "n": 15
+   },
+   {
+    "town": "Bishop Auckland",
+    "n": 5
+   },
+   {
+    "town": "Chester-le-Street",
+    "n": 4
+   },
+   {
+    "town": "Hartlepool",
+    "n": 3
+   }
+  ],
+  "ope": [
+   {
+    "town": "Plymouth",
+    "n": 15
+   },
+   {
+    "town": "Truro",
+    "n": 7
+   },
+   {
+    "town": "Falmouth",
+    "n": 4
+   },
+   {
+    "town": "Portland",
+    "n": 3
+   }
+  ],
+  "shut": [
+   {
+    "town": "Shrewsbury",
+    "n": 3
+   }
+  ],
+  "loke": [
+   {
+    "town": "North Walsham",
+    "n": 17
+   },
+   {
+    "town": "Wymondham",
+    "n": 9
+   },
+   {
+    "town": "Sprowston",
+    "n": 9
+   },
+   {
+    "town": "Norwich",
+    "n": 7
+   }
+  ],
+  "twitten": [
+   {
+    "town": "Haywards Heath",
+    "n": 5
+   },
+   {
+    "town": "Burgess Hill",
+    "n": 4
+   },
+   {
+    "town": "Lewes",
+    "n": 2
+   },
+   {
+    "town": "Bexhill-on-Sea",
+    "n": 2
+   }
+  ],
+  "entry": [
+   {
+    "town": "Edinburgh",
+    "n": 12
+   },
+   {
+    "town": "Belfast",
+    "n": 6
+   },
+   {
+    "town": "Cheadle",
+    "n": 4
+   },
+   {
+    "town": "Dundee",
+    "n": 3
+   }
+  ],
+  "pend": [
+   {
+    "town": "Dundee",
+    "n": 5
+   },
+   {
+    "town": "Edinburgh",
+    "n": 4
+   },
+   {
+    "town": "Prestonpans",
+    "n": 2
+   },
+   {
+    "town": "Bonnyrigg",
+    "n": 2
+   }
+  ],
+  "vennel": [
+   {
+    "town": "Perth",
+    "n": 7
+   },
+   {
+    "town": "Irvine",
+    "n": 3
+   },
+   {
+    "town": "Edinburgh",
+    "n": 2
+   },
+   {
+    "town": "Alloa",
+    "n": 2
+   }
+  ],
+  "close": [
+   {
+    "town": "Edinburgh",
+    "n": 78
+   },
+   {
+    "town": "Elgin",
+    "n": 18
+   },
+   {
+    "town": "Montrose",
+    "n": 8
+   },
+   {
+    "town": "Leith",
+    "n": 5
+   }
+  ],
+  "jitty": [
+   {
+    "town": "Loughborough",
+    "n": 4
+   },
+   {
+    "town": "Madeley",
+    "n": 4
+   },
+   {
+    "town": "Leicester",
+    "n": 2
+   },
+   {
+    "town": "Northampton",
+    "n": 2
+   }
+  ],
+  "ginnel": [
+   {
+    "town": "Yeadon",
+    "n": 2
+   },
+   {
+    "town": "Chesterfield",
+    "n": 1
+   },
+   {
+    "town": "Salford",
+    "n": 1
+   },
+   {
+    "town": "Walkden",
+    "n": 1
+   }
+  ],
+  "snicket": [
+   {
+    "town": "Ilkley",
+    "n": 4
+   },
+   {
+    "town": "Otley",
+    "n": 3
+   },
+   {
+    "town": "Bottesford",
+    "n": 2
+   },
+   {
+    "town": "Chesham",
+    "n": 1
+   }
+  ],
+  "gully": [
+   {
+    "town": "Bristol",
+    "n": 3
+   },
+   {
+    "town": "Bradley Stoke",
+    "n": 1
+   },
+   {
+    "town": "Pontypool",
+    "n": 1
+   },
+   {
+    "town": "Cumbernauld",
+    "n": 1
+   }
+  ]
+ },
+ "hex": {
+  "cells": 447,
+  "cells_regional3": 121,
+  "ties": 4,
+  "dominant": {
+   "wynd": 61,
+   "loke": 12,
+   "close": 10,
+   "jitty": 7,
+   "entry": 4,
+   "chare": 4,
+   "ope": 4,
+   "twitten": 3,
+   "vennel": 2,
+   "lonnen": 2,
+   "drang": 2,
+   "ginnel": 2,
+   "shut": 1,
+   "snicket": 1,
+   "gully": 1,
+   "twitchel": 1
+  }
+ },
+ "mixed_cells": [
+  {
+   "words": "close 83; wynd 56; entry 12; steps 12; pend 7; vennel 2; alley 1",
+   "n": 173
+  },
+  {
+   "words": "wynd 46; vennel 5",
+   "n": 51
+  },
+  {
+   "words": "wynd 40; close 3; entry 1; steps 1; vennel 1",
+   "n": 46
+  },
+  {
+   "words": "wynd 31; pend 5; steps 5; entry 4; close 2; alley 1; vennel 1",
+   "n": 49
+  },
+  {
+   "words": "wynd 31; close 6; steps 1; vennel 1",
+   "n": 39
+  },
+  {
+   "words": "wynd 17; chare 15; lonnen 3; entry 2; alley 1; passage 1; steps 1",
+   "n": 40
+  },
+  {
+   "words": "wynd 23; close 12; pend 2; steps 2",
+   "n": 39
+  },
+  {
+   "words": "wynd 27; close 3; vennel 3; entry 2; pend 1; steps 1",
+   "n": 37
+  }
+ ],
+ "yorks": {
+  "ginnel": 14,
+  "snicket": 10,
+  "ginnel_towns": [
+   "Harrogate",
+   "Huddersfield",
+   "Leeds",
+   "Penistone",
+   "Rothwell",
+   "Sheffield",
+   "Skipton",
+   "Sowerby Bridge",
+   "Yeadon",
+   "York"
+  ],
+  "snicket_towns": [
+   "Ilkley",
+   "Otley"
+  ]
+ },
+ "wharfedale": {
+  "snicket": 7,
+  "ginnel": 3,
+  "min_km": 9.125025470694752,
+  "nearest_ginnel_town": "Yeadon"
+ },
+ "york": {
+  "snicket": 0,
+  "ginnel": 1,
+  "all": 9
+ },
+ "counties_with_regional": 79,
+ "counties": 88
+}

@@ -1,0 +1,8 @@
+[{"out": "qa/desktop.jpg", "w": 1280, "h": 800},
+ {"out": "qa/desktop_hex.jpg", "w": 1280, "h": 800, "q": "hex=1", "eval": "document.getElementById('lyrBtn').click()"},
+ {"out": "qa/desktop_newcastle.jpg", "w": 1280, "h": 800, "q": "at=54.968,-1.61,14.5&word=chare"},
+ {"out": "qa/desktop_popup.jpg", "w": 1280, "h": 800, "q": "open=1037132369"},
+ {"out": "qa/phone.jpg", "w": 390, "h": 800, "dpr": 2},
+ {"out": "qa/phone_search.jpg", "w": 390, "h": 800, "dpr": 2, "eval": "(()=>{const q=document.getElementById('q');q.value='Shrews';q.dispatchEvent(new Event('input'))})()"},
+ {"out": "qa/phone_full.jpg", "w": 390, "h": 800, "dpr": 1, "full": true},
+ {"out": "qa/desktop_full.jpg", "w": 1280, "h": 800, "full": true}]

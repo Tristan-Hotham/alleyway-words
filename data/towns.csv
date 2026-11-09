@@ -1,0 +1,489 @@
+town,n,regional,words,top,lon,lat,top_regional
+London,375,2,5,passage,-0.1422,51.49728,entry
+Edinburgh,127,116,7,close,-3.19125,55.94847,close
+Hastings,38,1,5,passage,0.58017,50.85921,twitten
+Kirkcaldy,37,37,4,wynd,-3.15401,56.11037,wynd
+Birmingham,34,0,2,passage,-1.89997,52.47896,
+Dundee,32,27,6,wynd,-2.98233,56.46684,wynd
+Aberdeen,30,25,3,wynd,-2.1127,57.15116,wynd
+Norwich,29,7,3,alley,1.2893,52.62772,loke
+Elgin,27,27,2,close,-3.31415,57.64843,close
+Newcastle upon Tyne,24,23,5,chare,-1.61689,54.9763,chare
+Shrewsbury,23,3,4,passage,-2.75248,52.70803,shut
+Bristol,22,3,4,steps,-2.59413,51.45695,gully
+Whitstable,22,0,1,alley,1.02283,51.35885,
+Cambuslang,19,19,1,wynd,-4.14499,55.81536,wynd
+Irvine,19,19,2,wynd,-4.64242,55.6184,wynd
+Brixham,19,0,1,steps,-3.54046,50.37641,
+Stirling,18,18,3,wynd,-3.93852,56.11397,wynd
+North Walsham,17,17,1,loke,1.39334,52.83337,loke
+Methil,17,16,2,wynd,-3.00584,56.19061,wynd
+Oxford,17,1,3,alley,-1.23296,51.75551,entry
+Tewkesbury,17,0,1,alley,-2.15595,51.99394,
+Kilwinning,16,16,2,wynd,-4.71214,55.65793,wynd
+Prestonpans,16,16,2,wynd,-2.94778,55.96505,wynd
+Perth,15,15,3,vennel,-3.43621,56.39713,vennel
+Plymouth,15,15,1,ope,-4.15227,50.3704,ope
+Kilmarnock,15,14,2,wynd,-4.49643,55.62113,wynd
+Westhill,14,14,2,wynd,-2.24326,57.14136,wynd
+East Kilbride,14,13,2,wynd,-4.18534,55.75845,wynd
+Leith,14,13,3,wynd,-3.18051,55.97665,wynd
+Ingleby Barwick,14,12,3,wynd,-1.32773,54.51014,wynd
+Dunfermline,13,13,3,wynd,-3.4502,56.07118,wynd
+Hamilton,13,13,1,wynd,-4.05891,55.7674,wynd
+Viewpark,13,13,1,wynd,-4.08447,55.83822,wynd
+Cambridge,13,0,4,passage,0.12223,52.20636,
+Ayr,12,12,2,wynd,-4.63331,55.44979,wynd
+Broughty Ferry,12,11,4,wynd,-2.86594,56.46499,wynd
+Montrose,12,11,3,close,-2.4686,56.71083,close
+Wymondham,12,11,3,loke,1.13379,52.58311,loke
+Glasgow,12,8,4,wynd,-4.25654,55.86124,wynd
+Linlithgow,11,11,3,wynd,-3.60417,55.97366,wynd
+Paisley,11,11,2,wynd,-4.41446,55.84039,wynd
+Bo'ness,11,9,4,wynd,-3.61751,56.04604,wynd
+Larkhall,11,9,2,wynd,-3.98455,55.73653,wynd
+Manchester,11,2,4,passage,-2.24213,53.47995,entry
+Deal,11,0,2,alley,1.4025,51.22459,
+Alloa,10,10,2,wynd,-3.79268,56.12641,wynd
+Bonnyrigg,10,10,2,wynd,-3.13371,55.89509,wynd
+Johnstone,10,10,1,wynd,-4.52208,55.83106,wynd
+Musselburgh,10,10,1,wynd,-3.07676,55.93813,wynd
+Catterick Garrison,10,9,2,wynd,-1.73161,54.40249,wynd
+Sprowston,10,9,2,loke,1.32886,52.66716,loke
+Colchester,10,1,4,passage,0.90038,51.8892,wynd
+Longton,10,0,2,passage,-2.12493,52.98909,
+Sheerness,10,0,3,alley,0.75783,51.43811,
+Whitby,10,0,1,steps,-0.62028,54.48657,
+Motherwell,9,9,1,wynd,-3.97304,55.79565,wynd
+Wishaw,9,9,1,wynd,-3.91954,55.77712,wynd
+Blaydon,9,8,4,lonnen,-1.74521,54.97544,lonnen
+Falkirk,9,8,4,wynd,-3.77823,55.99864,wynd
+Forfar,9,8,4,wynd,-2.88277,56.64598,wynd
+Glenrothes,9,8,2,wynd,-3.16007,56.19862,wynd
+Durham,9,7,5,wynd,-1.57332,54.76804,wynd
+Galashiels,9,7,3,close,-2.79583,55.61536,close
+Hawick,9,6,3,close,-2.78564,55.42325,close
+Brighton,9,2,4,passage,-0.11839,50.83124,twitten
+Worcester,9,2,3,steps,-2.21957,52.19074,entry
+York,9,1,3,alley,-1.08594,53.95826,ginnel
+Swadlincote,9,0,1,passage,-1.55716,52.77194,
+Dumfries,8,8,3,wynd,-3.60606,55.06526,wynd
+Erskine,8,8,1,wynd,-4.49462,55.90136,wynd
+Newton Mearns,8,8,1,wynd,-4.33671,55.76717,wynd
+Rosyth,8,8,3,wynd,-3.40357,56.01309,wynd
+Truro,8,7,2,ope,-5.0579,50.26316,ope
+Great Yarmouth,8,6,2,loke,1.72261,52.61551,loke
+Dudley,8,2,2,passage,-2.08383,52.50982,entry
+Lewes,8,2,3,passage,0.00874,50.87424,twitten
+Liverpool,8,0,2,alley,-2.98585,53.40534,
+Ramsgate,8,0,3,passage,1.4127,51.34065,
+Scarborough,8,0,2,steps,-0.39311,54.28372,
+West Bromwich,8,0,2,passage,-1.99311,52.51772,
+Winchester,8,0,2,passage,-1.31452,51.06139,
+Blantyre,7,7,1,wynd,-4.07863,55.80184,wynd
+Inverurie,7,7,1,wynd,-2.3766,57.27355,wynd
+St Andrews,7,7,2,wynd,-2.8036,56.33986,wynd
+Belfast,7,6,2,entry,-5.92741,54.59985,entry
+Ellon,7,6,2,wynd,-2.06466,57.36881,wynd
+Falmouth,7,4,3,ope,-5.07514,50.15729,ope
+Madeley,7,4,3,jitty,-2.48253,52.62244,jitty
+Lancaster,7,1,4,passage,-2.79768,54.04324,ginnel
+Royal Tunbridge Wells,7,1,4,passage,0.26046,51.12763,twitten
+Windsor,7,0,3,passage,-0.60908,51.48497,
+Ardrossan,6,6,1,wynd,-4.79119,55.65128,wynd
+Bellshill,6,6,2,wynd,-4.01881,55.82478,wynd
+Kirkintilloch,6,6,1,wynd,-4.11282,55.91232,wynd
+Forres,6,5,2,wynd,-3.61653,57.61278,wynd
+Haywards Heath,6,5,2,twitten,-0.12369,51.00892,twitten
+Loughborough,6,5,3,jitty,-1.20025,52.76775,jitty
+Cromer,6,4,2,loke,1.30636,52.91633,loke
+Lowestoft,6,3,3,loke,1.71961,52.4797,loke
+Leeds,6,1,4,passage,-1.54263,53.79941,ginnel
+Bath,6,0,2,passage,-2.35877,51.38313,
+Bridgnorth,6,0,1,steps,-2.41784,52.53397,
+Folkestone,6,0,3,steps,1.17098,51.07795,
+Guildford,6,0,2,alley,-0.57852,51.23507,
+Hythe,6,0,1,passage,1.08342,51.07276,
+Stourbridge,6,0,1,passage,-2.14648,52.44425,
+Wednesbury,6,0,2,passage,-2.02,52.55036,
+Wolverhampton,6,0,2,alley,-2.12906,52.5866,
+Bishop Auckland,5,5,1,chare,-1.67077,54.6655,chare
+Broxburn,5,5,1,wynd,-3.4208,55.93931,wynd
+Chester-le-Street,5,5,2,chare,-1.57997,54.85897,chare
+Coatbridge,5,5,1,wynd,-4.05555,55.87778,wynd
+Cumbernauld,5,5,2,wynd,-3.98971,55.9408,wynd
+Dalgety Bay,5,5,1,wynd,-3.36376,56.04233,wynd
+Darlington,5,5,2,wynd,-1.57811,54.53369,wynd
+Peterlee,5,5,2,wynd,-1.35707,54.74484,wynd
+Tranent,5,5,1,wynd,-2.94559,55.93493,wynd
+Beccles,5,4,2,loke,1.55099,52.45069,loke
+Inverness,5,3,3,close,-4.22406,57.47771,close
+Chester,5,1,4,passage,-2.89432,53.19504,entry
+Sheffield,5,1,4,alley,-1.45878,53.37883,ginnel
+Alton,5,0,1,alley,-0.97576,51.14903,
+Cheltenham,5,0,2,passage,-2.07068,51.9037,
+Huntingdon,5,0,1,passage,-0.18382,52.33053,
+King's Lynn,5,0,3,alley,0.39687,52.75023,
+Lincoln,5,0,1,passage,-0.54116,53.23276,
+Stourport-on-Severn,5,0,3,passage,-2.28623,52.34579,
+Tipton,5,0,1,passage,-2.0456,52.52828,
+Burgess Hill,4,4,1,twitten,-0.1448,50.93581,twitten
+Cheadle,4,4,1,entry,-1.98914,52.9876,entry
+Dumbarton,4,4,2,wynd,-4.56599,55.94543,wynd
+Helensburgh,4,4,1,wynd,-4.70601,55.99926,wynd
+Hexham,4,4,2,chare,-2.08792,54.98223,chare
+Ilkley,4,4,1,snicket,-1.75872,53.91327,snicket
+Killingworth,4,4,1,wynd,-1.57445,55.03279,wynd
+Renfrew,4,4,2,wynd,-4.3853,55.8781,wynd
+Rutherglen,4,4,1,wynd,-4.2169,55.83441,wynd
+Saltcoats,4,4,1,wynd,-4.77162,55.65,wynd
+Thorpe St Andrew,4,4,1,loke,1.35702,52.63893,loke
+Troon,4,4,1,wynd,-4.63652,55.55408,wynd
+Largs,4,3,2,wynd,-4.85966,55.78856,wynd
+Otley,4,3,2,snicket,-1.7349,53.91027,snicket
+Leicester,4,2,3,jitty,-1.13938,52.64274,jitty
+Prudhoe,4,2,3,lonnen,-1.83452,54.96528,lonnen
+Hemel Hempstead,4,1,3,alley,-0.47836,51.75688,vennel
+Horsham,4,1,2,alley,-0.32296,51.06519,twitten
+Matlock,4,1,3,steps,-1.55625,53.11762,jitty
+Watford,4,1,2,passage,-0.40054,51.66252,ope
+Belper,4,0,2,alley,-1.47011,53.01884,
+Burnage,4,0,2,passage,-2.22282,53.41868,
+Ely,4,0,2,passage,-1.48172,51.94834,
+Nottingham,4,0,3,passage,-1.15476,52.95315,
+Oldbury,4,0,2,passage,-2.01354,52.49671,
+Oxted,4,0,1,steps,-0.00201,51.24569,
+St Albans,4,0,1,alley,-0.33852,51.7541,
+St Ives,4,0,1,passage,-1.42594,51.79619,
+Wisbech,4,0,1,passage,0.16102,52.66414,
+Airdrie,3,3,1,wynd,-3.93527,55.87798,wynd
+Arbroath,3,3,1,wynd,-2.58487,56.56896,wynd
+Attleborough,3,3,1,loke,0.99396,52.50398,loke
+Bishopbriggs,3,3,2,wynd,-4.21715,55.89674,wynd
+Bletchley and Fenny Stratford,3,3,2,loke,-0.67422,52.0109,loke
+Carluke,3,3,2,wynd,-3.82756,55.73039,wynd
+Cowdenbeath,3,3,2,wynd,-3.33245,56.13172,wynd
+Dereham,3,3,1,loke,0.9743,52.67242,loke
+Hartlepool,3,3,1,chare,-1.1808,54.69533,chare
+Larbert,3,3,3,pend,-3.87432,56.01864,pend
+Livingston,3,3,2,wynd,-3.51643,55.87894,wynd
+Longbenton,3,3,1,wynd,-1.59785,55.00613,wynd
+Newton Aycliffe,3,3,2,wynd,-1.56627,54.61421,wynd
+Portland,3,3,1,ope,-2.44862,50.56132,ope
+Whickham,3,3,2,chare,-1.6838,54.93682,chare
+Letchworth Garden City,3,2,3,alley,-0.19992,51.98527,twitchel
+Middlesbrough,3,2,2,wynd,-1.21522,54.5592,wynd
+Northampton,3,2,2,jitty,-0.89944,52.24605,jitty
+Spennymoor,3,2,3,cut,-1.58962,54.69715,lonnen
+Beeston,3,1,3,alley,-1.21127,52.91567,twitchel
+Bolton,3,1,2,steps,-2.43581,53.58412,entry
+Kingston upon Hull,3,1,2,alley,-0.32804,53.74182,entry
+Peacehaven,3,1,2,steps,-0.01199,50.79251,twitten
+Redditch,3,1,3,alley,-1.92594,52.29605,entry
+Rochdale,3,1,3,alley,-2.15599,53.61666,entry
+Rotherham,3,1,3,alley,-1.36851,53.43369,twitchel
+Seaford,3,1,2,passage,0.1263,50.77116,twitten
+Sedgley,3,1,3,alley,-2.12601,52.53685,wynd
+Sowerby Bridge,3,1,2,steps,-1.91337,53.7192,ginnel
+Ashford,3,0,1,passage,0.87277,51.14907,
+Beverley,3,0,2,passage,-0.43785,53.84033,
+Blackheath,3,0,2,passage,-2.02695,52.47775,
+Bournemouth,3,0,1,steps,-1.87765,50.71759,
+Bracknell,3,0,2,alley,-0.76296,51.40029,
+Brighouse,3,0,2,steps,-1.79302,53.69697,
+Brighton and Hove,3,0,1,passage,-0.14568,50.82989,
+Burntwood,3,0,1,alley,-1.92578,52.67567,
+Dorking,3,0,2,passage,-0.33202,51.23204,
+Dover,3,0,2,passage,1.30457,51.11976,
+Fleet,3,0,1,alley,-0.86938,51.25498,
+Frome,3,0,2,steps,-2.32201,51.23078,
+Gosport,3,0,1,alley,-1.10757,50.79118,
+Great Harwood,3,0,1,alley,-2.40386,53.77591,
+Hertford,3,0,1,alley,-0.10658,51.76673,
+Hitchin,3,0,1,alley,-0.28178,51.94786,
+Leatherhead,3,0,1,alley,-0.32768,51.2952,
+Leek,3,0,1,passage,-2.02549,53.10624,
+Marlow,3,0,2,alley,-0.77493,51.56914,
+Middlewich,3,0,2,passage,-2.44904,53.19238,
+Oldham,3,0,1,passage,-2.10048,53.54389,
+Penzance,3,0,2,passage,-5.51624,50.11716,
+Ripon,3,0,2,steps,-1.53224,54.13301,
+Snodland,3,0,1,alley,0.4456,51.30941,
+Stafford,3,0,1,passage,-2.11853,52.80744,
+Stockport,3,0,1,passage,-2.1589,53.40118,
+Stoke-on-Trent,3,0,2,passage,-2.18986,52.99112,
+Stretford,3,0,1,passage,-2.28148,53.4411,
+Wakefield,3,0,2,passage,-1.50051,53.68298,
+Walsall,3,0,3,alley,-1.97454,52.58219,
+Weston-super-Mare,3,0,2,steps,-2.95851,51.3575,
+Barrhead,2,2,1,wynd,-4.41777,55.80394,wynd
+Bearsden,2,2,1,wynd,-4.33567,55.92122,wynd
+Bedlington,2,2,2,lonnen,-1.57963,55.12511,lonnen
+Bexhill-on-Sea,2,2,1,twitten,0.43222,50.84248,twitten
+Blyth,2,2,1,wynd,-1.53659,55.10374,wynd
+Bottesford,2,2,1,snicket,-0.6519,53.52762,snicket
+Braunstone Town,2,2,2,jitty,-1.1535,52.57874,jitty
+Coseley,2,2,1,wynd,-2.08462,52.54838,wynd
+Dalkeith,2,2,2,close,-3.07134,55.89425,close
+East Grinstead,2,2,1,twitten,0.01492,51.11867,twitten
+Fort William,2,2,1,wynd,-5.10946,56.80978,wynd
+Giffnock,2,2,1,wynd,-4.3013,55.80326,wynd
+Northam,2,2,2,drang,-4.19164,51.05332,drang
+Penicuik,2,2,2,pend,-3.22202,55.83614,pend
+Port Glasgow,2,2,1,wynd,-4.64021,55.92832,wynd
+Washington,2,2,2,chare,-1.53809,54.90746,chare
+Wells,2,2,2,drang,-2.65782,51.20467,drang
+Yeadon,2,2,1,ginnel,-1.61251,53.87985,ginnel
+Berwick-upon-Tweed,2,1,2,alley,-2.00433,55.76958,wynd
+Blandford Forum,2,1,2,entry,-2.16432,50.85673,entry
+Bradley Stoke,2,1,2,gully,-2.5,51.52046,gully
+Calne,2,1,2,steps,-2.00362,51.44064,wynd
+Chesham,2,1,2,alley,-0.60792,51.69355,snicket
+Chesterfield,2,1,2,alley,-1.41434,53.231,ginnel
+Colne,2,1,2,snicket,-2.17222,53.8645,snicket
+Devizes,2,1,2,alley,-1.9951,51.35212,ginnel
+Earl Shilton,2,1,2,alley,-1.32389,52.57275,jitty
+Greenock,2,1,2,steps,-4.75489,55.9382,wynd
+Harrogate,2,1,2,ginnel,-1.53585,53.99429,ginnel
+Hessle,2,1,2,steps,-0.41471,53.7456,tenfoot
+Mansfield,2,1,2,alley,-1.19882,53.14816,wynd
+Penistone,2,1,2,ginnel,-1.65546,53.54405,ginnel
+Prescot,2,1,2,entry,-2.79785,53.4311,entry
+Saltash,2,1,2,ope,-4.19479,50.39902,ope
+South Shields,2,1,2,alley,-1.41776,54.98374,lonnen
+Sunderland,2,1,2,chare,-1.36856,54.93958,chare
+Tamworth,2,1,2,alley,-1.69664,52.63436,entry
+Thornaby-on-Tees,2,1,2,cut,-1.32936,54.55168,wynd
+Woking,2,1,2,snicket,-0.5585,51.32212,snicket
+Aldershot,2,0,2,alley,-0.76571,51.24756,
+Altrincham,2,0,2,passage,-2.3716,53.39152,
+Banbury,2,0,2,alley,-1.3369,52.06098,
+Barnsley,2,0,2,passage,-1.48356,53.55406,
+Bedford,2,0,1,passage,-0.46342,52.15081,
+Birkenhead,2,0,1,steps,-2.9922,53.37998,
+Bodmin,2,0,1,passage,-4.72002,50.47124,
+Bradford-on-Avon,2,0,1,steps,-2.25199,51.34717,
+Broadstairs,2,0,2,alley,1.3895,51.38884,
+Canterbury,2,0,1,passage,1.07659,51.27451,
+Chatham,2,0,2,alley,0.52801,51.3932,
+Chelmsford,2,0,1,passage,0.47312,51.73414,
+Dorchester,2,0,1,passage,-2.43746,50.71396,
+Droitwich Spa,2,0,1,alley,-2.17059,52.30446,
+Evesham,2,0,2,alley,-1.96922,52.09599,
+Exeter,2,0,1,steps,-3.53438,50.72034,
+Farnham,2,0,2,passage,-0.80192,51.21596,
+Faversham,2,0,1,alley,0.89142,51.31473,
+Felixstowe,2,0,2,alley,1.34682,51.9597,
+Godalming,2,0,1,steps,-0.6034,51.17147,
+Golborne,2,0,2,passage,-2.57279,53.4568,
+Gravesend,2,0,1,alley,0.36899,51.44422,
+Grimsby,2,0,1,alley,-0.07451,53.56017,
+Halifax,2,0,2,passage,-1.86442,53.71895,
+Harpenden,2,0,1,slype,-0.31005,51.83372,
+Hyde,2,0,1,passage,-2.07594,53.4515,
+Keynsham,2,0,2,alley,-2.51854,51.45602,
+Knaresborough,2,0,2,passage,-1.46866,54.00835,
+Littlehampton,2,0,1,passage,-0.53772,50.81043,
+Louth,2,0,2,alley,-0.00314,53.36589,
+Luton,2,0,1,passage,-0.41876,51.88318,
+Maidenhead,2,0,1,alley,-0.74166,51.52646,
+Malvern,2,0,1,steps,-2.3305,52.1106,
+Middleton,2,0,2,passage,-2.19392,53.55304,
+Nuneaton,2,0,2,cut,-1.46191,52.51176,
+Penarth,2,0,2,passage,-3.17342,51.42652,
+Port Talbot,2,0,2,alley,-3.73702,51.58878,
+Portsmouth,2,0,2,alley,-1.09354,50.80396,
+Redruth,2,0,1,passage,-5.22895,50.23314,
+Rochester,2,0,1,alley,0.5034,51.3897,
+Ryde,2,0,1,passage,-1.16319,50.72596,
+Stamford,2,0,1,passage,-0.47876,52.65204,
+Stockton-on-Tees,2,0,1,cut,-1.35094,54.55305,
+Stone,2,0,2,alley,-2.14757,52.90194,
+Thatcham,2,0,1,alley,-1.26272,51.43386,
+Wellingborough,2,0,2,alley,-0.70988,52.26024,
+Weymouth,2,0,1,passage,-2.45336,50.60699,
+Willenhall,2,0,2,alley,-2.05475,52.58442,
+Worthing,2,0,1,passage,-0.37162,50.81383,
+Armadale,1,1,1,wynd,-3.68685,55.89607,wynd
+Ashington,1,1,1,wynd,-1.56218,55.16209,wynd
+Ballymena,1,1,1,entry,-6.20253,54.89269,entry
+Bangor,1,1,1,ginnel,-4.08406,53.1908,ginnel
+Bebington,1,1,1,ginnel,-2.99318,53.35332,ginnel
+Bideford,1,1,1,drang,-4.20105,51.01654,drang
+Biggleswade,1,1,1,twitchel,-0.2667,52.09062,twitchel
+Billericay,1,1,1,wynd,0.41832,51.62044,wynd
+Billingham,1,1,1,wynd,-1.33089,54.63183,wynd
+Bletchley,1,1,1,loke,-0.80489,51.99172,loke
+Clydebank,1,1,1,wynd,-4.38729,55.8923,wynd
+Coventry,1,1,1,jitty,-1.49389,52.42589,jitty
+Cramlington,1,1,1,wynd,-1.6217,55.08535,wynd
+Crawley,1,1,1,twitten,-0.20103,51.11729,twitten
+Crook,1,1,1,lonnen,-1.70906,54.74517,lonnen
+Crowborough,1,1,1,twitten,0.1542,51.05136,twitten
+Cwmbran,1,1,1,wynd,-3.04349,51.64401,wynd
+Earlestown,1,1,1,entry,-2.68562,53.43229,entry
+Enniskillen,1,1,1,entry,-7.63761,54.34436,entry
+Gourock,1,1,1,wynd,-4.83018,55.93497,wynd
+Havant,1,1,1,twitten,-0.97932,50.85038,twitten
+Hebburn,1,1,1,wynd,-1.52552,54.96318,wynd
+Hinckley,1,1,1,entry,-1.37144,52.54127,entry
+Houghton-le-Spring,1,1,1,wynd,-1.47129,54.83697,wynd
+Huddersfield,1,1,1,ginnel,-1.84864,53.63735,ginnel
+Kilsyth,1,1,1,wynd,-4.03708,55.94958,wynd
+Mayfield,1,1,1,entry,-2.96117,55.85302,entry
+Morpeth,1,1,1,chare,-1.69035,55.17042,chare
+Nailsea,1,1,1,ginnel,-2.70865,51.42232,ginnel
+Neston,1,1,1,snicket,-3.08462,53.2997,snicket
+Newark-on-Trent,1,1,1,twitchel,-0.82219,53.06156,twitchel
+North Hykeham,1,1,1,jitty,-0.62017,53.15351,jitty
+Omagh,1,1,1,entry,-7.30075,54.60013,entry
+Padiham,1,1,1,ginnel,-2.29568,53.8242,ginnel
+Peterhead,1,1,1,wynd,-1.77878,57.50452,wynd
+Pontypool,1,1,1,gully,-3.06717,51.73669,gully
+Prestwick,1,1,1,wynd,-4.57529,55.48088,wynd
+Redcar,1,1,1,wynd,-1.01924,54.59197,wynd
+Rothwell,1,1,1,ginnel,-1.48376,53.75802,ginnel
+Rugby,1,1,1,jitty,-1.2629,52.37156,jitty
+Salford,1,1,1,ginnel,-2.30188,53.47058,ginnel
+Selsey,1,1,1,twitten,-0.85857,50.76145,twitten
+Shepton Mallet,1,1,1,drang,-2.50643,51.14654,drang
+Shildon,1,1,1,wynd,-1.65423,54.63449,wynd
+Skipton,1,1,1,ginnel,-2.01479,53.96008,ginnel
+Southwick,1,1,1,twitten,-0.23808,50.83383,twitten
+Staveley,1,1,1,wynd,-1.32377,53.29143,wynd
+Stonehaven,1,1,1,wynd,-2.20468,56.96005,wynd
+Sutton in Ashfield,1,1,1,twitchel,-1.26119,53.12036,twitchel
+Syston,1,1,1,wynd,-1.0553,52.71409,wynd
+Tonbridge,1,1,1,wynd,0.28512,51.1874,wynd
+Tynemouth,1,1,1,wynd,-1.44901,55.02008,wynd
+Uttoxeter,1,1,1,jitty,-1.82561,52.90427,jitty
+Walkden,1,1,1,ginnel,-2.42417,53.50271,ginnel
+Wallsend,1,1,1,wynd,-1.51447,55.01546,wynd
+Warrington,1,1,1,snicket,-2.57905,53.36101,snicket
+Whitley Bay,1,1,1,wynd,-1.46751,55.07653,wynd
+Addlestone,1,0,1,alley,-0.52019,51.36394,
+Arnold,1,0,1,steps,-1.11682,52.97411,
+Ashby-de-la-Zouch,1,0,1,passage,-1.47201,52.74692,
+Aylesbury,1,0,1,passage,-0.81432,51.81572,
+Baildon,1,0,1,steps,-1.76659,53.85261,
+Barnoldswick,1,0,1,steps,-2.19002,53.91226,
+Barrow-in-Furness,1,0,1,steps,-3.20911,54.12196,
+Basildon,1,0,1,steps,0.44919,51.58632,
+Basingstoke,1,0,1,alley,-1.0856,51.26219,
+Bicester,1,0,1,alley,-1.15436,51.90085,
+Bingley,1,0,1,alley,-1.83709,53.84939,
+Bolsover,1,0,1,steps,-1.2915,53.22626,
+Borehamwood,1,0,1,passage,-0.27658,51.65572,
+Boston,1,0,1,passage,-0.03043,52.98284,
+Bourne,1,0,1,passage,-0.37783,52.76855,
+Bridgend,1,0,1,steps,-3.58172,51.50831,
+Bridgwater,1,0,1,passage,-3.00595,51.12774,
+Bridlington,1,0,1,cut,-0.18414,54.08696,
+Brierley Hill,1,0,1,passage,-2.10413,52.47044,
+Bromsgrove,1,0,1,steps,-2.06366,52.33371,
+Brownhills,1,0,1,steps,-1.89018,52.65204,
+Buckingham,1,0,1,alley,-0.98842,51.99455,
+Bushey,1,0,1,alley,-0.35348,51.67317,
+Buxton,1,0,1,passage,-1.91007,53.25762,
+Cambourne,1,0,1,alley,-0.05296,52.21852,
+Cardiff,1,0,1,alley,-3.17811,51.48042,
+Carlisle,1,0,1,steps,-2.93763,54.89303,
+Carnoustie,1,0,1,steps,-2.69893,56.51424,
+Caterham,1,0,1,alley,-0.06744,51.24776,
+Chatteris,1,0,1,passage,0.04524,52.45971,
+Chepstow,1,0,1,steps,-2.68577,51.67142,
+Chorley,1,0,1,steps,-2.63142,53.65681,
+Clay Cross,1,0,1,steps,-1.34545,53.14349,
+Connah's Quay,1,0,1,steps,-3.05758,53.20533,
+Consett,1,0,1,cut,-1.85534,54.87094,
+Dartford,1,0,1,alley,0.19536,51.42962,
+Dawley,1,0,1,alley,-2.52146,52.65952,
+Denton,1,0,1,alley,-2.09251,53.45931,
+Derby,1,0,1,alley,-1.47773,52.92438,
+Didcot,1,0,1,cut,-1.24195,51.61787,
+Downham Market,1,0,1,alley,0.37892,52.60284,
+Dunstable,1,0,1,alley,-0.51471,51.88126,
+Eastleigh,1,0,1,alley,-1.36034,50.95287,
+Elland,1,0,1,steps,-1.87076,53.64093,
+Epping,1,0,1,alley,0.10617,51.69594,
+Epsom,1,0,1,alley,-0.25605,51.32729,
+Erdington,1,0,1,passage,-1.87424,52.53894,
+Esher,1,0,1,alley,-0.37842,51.35742,
+Ewell,1,0,1,alley,-0.25967,51.34561,
+Exmouth,1,0,1,steps,-3.44592,50.61459,
+Fareham,1,0,1,steps,-1.19173,50.85278,
+Ferndown,1,0,1,steps,-1.90407,50.76483,
+Frimley,1,0,1,alley,-0.75071,51.30524,
+Gateshead,1,0,1,steps,-1.60096,54.96292,
+Gloucester,1,0,1,alley,-2.24135,51.87191,
+Harwich,1,0,1,alley,1.25749,51.97867,
+Hatfield,1,0,1,alley,-0.99966,53.5789,
+Helston,1,0,1,steps,-5.31333,50.08097,
+Hereford,1,0,1,passage,-2.71348,52.05714,
+Hindley,1,0,1,steps,-2.56106,53.55231,
+Honiton,1,0,1,passage,-3.1907,50.80059,
+Horsforth,1,0,1,steps,-1.626,53.84999,
+Ilfracombe,1,0,1,passage,-4.12504,51.20697,
+Ilkeston,1,0,1,alley,-1.3103,52.97514,
+Kendal,1,0,1,steps,-2.75962,54.34991,
+Kettering,1,0,1,passage,-0.72191,52.39935,
+Kidderminster,1,0,1,alley,-2.31237,52.37737,
+Launceston,1,0,1,steps,-4.28062,50.64175,
+Leamington Spa,1,0,1,steps,-1.52535,52.29692,
+Leigh,1,0,1,passage,-2.52,53.49423,
+Leighton Buzzard,1,0,1,alley,-0.66134,51.91562,
+Lichfield,1,0,1,alley,-1.83072,52.68181,
+Llantrisant,1,0,1,alley,-3.4355,51.5791,
+Loughton,1,0,1,alley,0.05401,51.64674,
+Ludlow,1,0,1,steps,-2.7254,52.36424,
+Macclesfield,1,0,1,steps,-2.1234,53.25992,
+Maghull,1,0,1,steps,-2.95095,53.48483,
+Maldon,1,0,1,cut,0.67973,51.73107,
+Market Harborough,1,0,1,backway,-0.91636,52.47335,
+Merthyr Tydfil,1,0,1,alley,-3.37898,51.74616,
+Minehead,1,0,1,steps,-3.48124,51.21084,
+Molesey,1,0,1,alley,-0.34392,51.40229,
+New Milton,1,0,1,passage,-1.67943,50.79905,
+Newcastle-under-Lyme,1,0,1,passage,-2.19976,53.04454,
+Newmarket,1,0,1,passage,0.40601,52.24339,
+Newport Pagnell,1,0,1,alley,-0.7772,52.12886,
+Oadby,1,0,1,alley,-1.07869,52.59552,
+Pontefract,1,0,1,steps,-1.31039,53.68938,
+Poole,1,0,1,steps,-1.96874,50.68628,
+Preston,1,0,1,steps,-2.6584,53.74213,
+Reading,1,0,1,alley,-1.0395,51.48108,
+Reigate,1,0,1,steps,-0.20606,51.23794,
+Rickmansworth,1,0,1,alley,-0.49871,51.63361,
+Ross-on-Wye,1,0,1,alley,-2.58478,51.91465,
+Rowley Regis,1,0,1,passage,-2.06838,52.47746,
+Rugeley,1,0,1,steps,-1.9439,52.77319,
+Saffron Walden,1,0,1,passage,0.24074,52.02316,
+Sevenoaks,1,0,1,steps,0.18907,51.27174,
+Sittingbourne,1,0,1,alley,0.73807,51.34075,
+Sleaford,1,0,1,passage,-0.40895,52.99685,
+Soham,1,0,1,alley,0.32582,52.28056,
+Southampton,1,0,1,cut,-1.39747,50.90336,
+Southport,1,0,1,passage,-3.00711,53.64775,
+Staines-upon-Thames,1,0,1,steps,-0.56852,51.44525,
+Standish,1,0,1,alley,-2.65936,53.58554,
+Stratford-upon-Avon,1,0,1,alley,-1.70714,52.19316,
+Stroud,1,0,1,alley,-2.21821,51.69449,
+Swanage,1,0,1,alley,-1.95774,50.60905,
+Swansea,1,0,1,passage,-3.94028,51.61924,
+Swindon,1,0,1,alley,-1.78484,51.5548,
+Tadley,1,0,1,alley,-1.22249,51.35094,
+Tavistock,1,0,1,steps,-4.14905,50.54961,
+Thame,1,0,1,alley,-0.97181,51.74606,
+Tiverton,1,0,1,alley,-3.48718,50.90575,
+Todmorden,1,0,1,steps,-2.0988,53.71502,
+Torquay,1,0,1,steps,-3.53021,50.46569,
+Tring,1,0,1,cut,-0.6978,51.78556,
+Trowbridge,1,0,1,passage,-2.20461,51.32367,
+Tyldesley,1,0,1,passage,-2.47409,53.51677,
+Waltham Abbey,1,0,1,alley,0.02161,51.6595,
+Wellington,1,0,1,alley,-2.52241,52.70042,
+Westbury,1,0,1,passage,-2.18367,51.26269,
+Wigan,1,0,1,steps,-2.61616,53.54467,
+Winsford,1,0,1,steps,-2.53935,53.1927,
+Wokingham,1,0,1,alley,-0.80189,51.43296,
+Ystrad Mynach,1,0,1,steps,-3.23076,51.6481,

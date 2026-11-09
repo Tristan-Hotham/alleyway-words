@@ -1,0 +1,448 @@
+q,r,n,regional,top,top_n,second,second_n,general_top,words
+-20,54,1,0,,0,,0,steps,steps 1
+-17,51,1,0,,0,,0,passage,passage 1
+-13,29,1,1,entry,1,,0,,entry 1
+-13,31,1,1,entry,1,,0,,entry 1
+-13,58,2,2,close,2,,0,,close 2
+-12,45,2,2,wynd,2,,0,,wynd 2
+-12,50,4,4,wynd,4,,0,,wynd 4
+-12,51,4,2,wynd,2,,0,steps,steps 2; wynd 2
+-12,56,1,0,,0,,0,steps,steps 1
+-12,58,7,7,close,4,wynd,3,,close 4; wynd 3
+-11,49,8,6,wynd,4,close,2,steps,wynd 4; close 2; steps 2
+-11,50,4,3,vennel,2,wynd,1,steps,vennel 2; steps 1; wynd 1
+-11,51,1,1,wynd,1,,0,,wynd 1
+-11,66,4,0,,0,,0,steps,steps 4
+-10,33,1,1,entry,1,,0,,entry 1
+-10,50,6,5,wynd,5,,0,steps,wynd 5; steps 1
+-10,54,1,0,,0,,0,steps,steps 1
+-10,64,1,1,wynd,1,,0,,wynd 1
+-10,65,2,1,wynd,1,,0,alley,alley 1; wynd 1
+-9,32,1,1,entry,1,,0,,entry 1
+-9,33,1,1,vennel,1,,0,,vennel 1
+-9,36,1,0,,0,,0,cut,cut 1
+-9,40,1,1,wynd,1,,0,,wynd 1
+-9,50,27,27,close,18,wynd,9,,close 18; wynd 9
+-8,29,1,0,,0,,0,cut,cut 1
+-8,31,9,7,entry,6,wynd,1,alley,entry 6; alley 1; steps 1; wynd 1
+-8,38,6,5,wynd,5,,0,steps,wynd 5; steps 1
+-8,39,12,11,wynd,10,pend,1,steps,wynd 10; pend 1; steps 1
+-8,49,1,0,,0,,0,steps,steps 1
+-7,28,1,0,,0,,0,steps,steps 1
+-7,34,1,1,vennel,1,,0,,vennel 1
+-7,37,51,51,wynd,46,vennel,5,,wynd 46; vennel 5
+-7,38,25,25,wynd,24,close,1,,wynd 24; close 1
+-7,39,20,19,wynd,17,pend,1,steps,wynd 17; pend 1; steps 1; vennel 1
+-7,41,1,1,wynd,1,,0,,wynd 1
+-7,42,1,1,wynd,1,,0,,wynd 1
+-7,49,2,2,tie,1,wynd,1,,close 1; wynd 1
+-7,50,1,0,,0,,0,steps,steps 1
+-6,35,4,4,wynd,3,vennel,1,,wynd 3; vennel 1
+-6,36,18,17,wynd,16,vennel,1,steps,wynd 16; steps 1; vennel 1
+-6,37,21,20,wynd,19,close,1,steps,wynd 19; close 1; steps 1
+-6,38,71,66,wynd,65,entry,1,steps,wynd 65; steps 4; alley 1; entry 1
+-6,39,17,17,wynd,16,gully,1,,wynd 16; gully 1
+-6,40,30,30,wynd,23,vennel,5,,wynd 23; vennel 5; close 1; entry 1
+-6,41,13,13,wynd,8,entry,5,,wynd 8; entry 5
+-6,42,3,3,wynd,3,,0,,wynd 3
+-6,43,6,6,wynd,5,entry,1,,wynd 5; entry 1
+-6,49,1,1,wynd,1,,0,,wynd 1
+-5,35,3,3,wynd,3,,0,,wynd 3
+-5,36,4,3,wynd,3,,0,cut,wynd 3; cut 1
+-5,37,7,7,wynd,6,close,1,,wynd 6; close 1
+-5,38,64,62,wynd,60,close,1,steps,wynd 60; steps 2; close 1; vennel 1
+-5,39,16,15,wynd,11,close,2,steps,wynd 11; close 2; entry 1; pend 1; steps 1
+-5,40,25,23,wynd,16,close,4,steps,wynd 16; close 4; vennel 3; steps 2
+-5,41,12,12,wynd,12,,0,,wynd 12
+-5,42,17,17,vennel,7,wynd,6,,vennel 7; wynd 6; close 4
+-5,43,7,6,tie,3,wynd,3,alley,close 3; wynd 3; alley 1
+-5,44,16,16,close,9,wynd,6,,close 9; wynd 6; pend 1
+-5,46,6,6,wynd,6,,0,,wynd 6
+-5,47,6,6,wynd,5,close,1,,wynd 5; close 1
+-5,48,4,4,wynd,4,,0,,wynd 4
+-4,32,2,2,vennel,2,,0,,vennel 2
+-4,33,1,1,entry,1,,0,,entry 1
+-4,35,2,2,wynd,2,,0,,wynd 2
+-4,36,2,2,tie,1,wynd,1,,entry 1; wynd 1
+-4,37,19,19,close,10,wynd,7,,close 10; wynd 7; vennel 2
+-4,38,2,2,wynd,2,,0,,wynd 2
+-4,39,37,36,wynd,27,close,3,steps,wynd 27; close 3; vennel 3; entry 2; pend 1; steps 1
+-4,40,46,45,wynd,40,close,3,steps,wynd 40; close 3; entry 1; steps 1; vennel 1
+-4,41,39,37,wynd,23,close,12,steps,wynd 23; close 12; pend 2; steps 2
+-4,42,49,43,wynd,31,pend,5,steps,wynd 31; pend 5; steps 5; entry 4; close 2; alley 1; vennel 1
+-4,43,15,14,wynd,9,close,3,steps,wynd 9; close 3; pend 1; steps 1; vennel 1
+-4,44,9,9,close,6,wynd,3,,close 6; wynd 3
+-4,45,1,0,,0,,0,alley,alley 1
+-4,46,13,13,wynd,10,close,3,,wynd 10; close 3
+-4,47,36,31,wynd,28,close,2,steps,wynd 28; steps 5; close 2; pend 1
+-4,48,8,7,wynd,7,,0,alley,wynd 7; alley 1
+-4,49,2,2,wynd,2,,0,,wynd 2
+-3,32,5,5,wynd,3,close,2,,wynd 3; close 2
+-3,36,1,1,wynd,1,,0,,wynd 1
+-3,37,4,4,tie,2,wynd,2,,close 2; wynd 2
+-3,38,5,5,wynd,4,pend,1,,wynd 4; pend 1
+-3,39,173,160,close,83,wynd,56,steps,close 83; wynd 56; entry 12; steps 12; pend 7; vennel 2; alley 1
+-3,40,24,23,wynd,23,,0,steps,wynd 23; steps 1
+-3,41,39,38,wynd,31,close,6,steps,wynd 31; close 6; steps 1; vennel 1
+-3,42,1,0,,0,,0,steps,steps 1
+-3,43,3,3,wynd,3,,0,,wynd 3
+-3,44,25,21,close,16,wynd,5,steps,close 16; wynd 5; steps 4
+-3,45,2,2,wynd,2,,0,,wynd 2
+-3,46,11,11,wynd,10,close,1,,wynd 10; close 1
+-2,32,1,0,,0,,0,alley,alley 1
+-2,33,8,8,wynd,5,vennel,2,,wynd 5; vennel 2; close 1
+-2,34,4,4,tie,2,wynd,2,,vennel 2; wynd 2
+-2,35,2,2,tie,1,entry,1,,close 1; entry 1
+-2,37,7,6,wynd,3,vennel,2,cut,wynd 3; vennel 2; close 1; cut 1
+-2,38,2,2,tie,1,pend,1,,entry 1; pend 1
+-2,39,27,27,wynd,22,close,5,,wynd 22; close 5
+-2,40,2,2,wynd,2,,0,,wynd 2
+-2,41,4,4,wynd,4,,0,,wynd 4
+-1,33,3,3,wynd,3,,0,,wynd 3
+-1,36,10,10,close,8,pend,1,,close 8; pend 1; wynd 1
+-1,37,16,14,wynd,9,close,5,steps,wynd 9; close 5; steps 2
+-1,39,15,15,close,10,wynd,4,,close 10; wynd 4; vennel 1
+0,32,1,1,wynd,1,,0,,wynd 1
+0,33,2,2,wynd,2,,0,,wynd 2
+0,34,2,2,tie,1,wynd,1,,entry 1; wynd 1
+0,35,9,6,tie,3,wynd,3,steps,close 3; steps 3; wynd 3
+0,36,12,12,close,7,wynd,5,,close 7; wynd 5
+0,37,13,12,wynd,6,close,3,steps,wynd 6; close 3; entry 3; steps 1
+0,38,5,5,wynd,4,entry,1,,wynd 4; entry 1
+1,22,1,0,,0,,0,steps,steps 1
+1,30,1,0,,0,,0,alley,alley 1
+1,32,1,0,,0,,0,steps,steps 1
+1,37,1,0,,0,,0,steps,steps 1
+1,38,4,3,wynd,3,,0,alley,wynd 3; alley 1
+2,13,1,0,,0,,0,steps,steps 1
+2,29,1,0,,0,,0,steps,steps 1
+2,32,1,0,,0,,0,cut,cut 1
+2,33,1,1,lonnen,1,,0,,lonnen 1
+2,37,5,5,lonnen,3,chare,1,,lonnen 3; chare 1; wynd 1
+3,14,1,0,,0,,0,steps,steps 1
+3,19,1,0,,0,,0,steps,steps 1
+3,21,1,1,ginnel,1,,0,,ginnel 1
+3,22,16,0,,0,,0,passage,passage 15; steps 1
+3,27,1,0,,0,,0,steps,steps 1
+3,28,3,2,ginnel,2,,0,steps,ginnel 2; steps 1
+3,29,2,0,,0,,0,steps,steps 2
+3,33,3,3,chare,2,wynd,1,,chare 2; wynd 1
+3,36,2,1,wynd,1,,0,alley,alley 1; wynd 1
+4,1,1,0,,0,,0,steps,steps 1
+4,13,1,1,drang,1,,0,,drang 1
+4,17,1,0,,0,,0,cut,cut 1
+4,27,8,1,ginnel,1,,0,passage,passage 3; alley 2; steps 2; ginnel 1
+4,28,1,0,,0,,0,steps,steps 1
+4,30,1,1,wynd,1,,0,,wynd 1
+4,32,3,2,tie,1,lonnen,1,cut,chare 1; cut 1; lonnen 1
+4,33,11,9,lonnen,6,chare,2,cut,lonnen 6; chare 2; cut 1; steps 1; wynd 1
+4,34,3,3,wynd,2,chare,1,,wynd 2; chare 1
+4,35,3,3,wynd,2,lonnen,1,,wynd 2; lonnen 1
+5,11,3,0,,0,,0,steps,steps 3
+5,17,2,0,,0,,0,steps,steps 2
+5,22,1,1,snicket,1,,0,,snicket 1
+5,23,9,0,,0,,0,alley,alley 7; steps 2
+5,24,1,0,,0,,0,passage,passage 1
+5,25,2,0,,0,,0,passage,passage 1; steps 1
+5,28,1,1,wynd,1,,0,,wynd 1
+5,30,2,2,tie,1,wynd,1,,lonnen 1; wynd 1
+5,31,1,1,lonnen,1,,0,,lonnen 1
+5,32,14,12,chare,6,lonnen,4,cut,chare 6; lonnen 4; wynd 2; cut 1; steps 1
+5,33,40,37,wynd,17,chare,15,alley,wynd 17; chare 15; lonnen 3; entry 2; alley 1; passage 1; steps 1
+6,2,2,0,,0,,0,passage,passage 2
+6,12,1,0,,0,,0,steps,steps 1
+6,21,2,0,,0,,0,alley,alley 1; steps 1
+6,22,4,2,tie,1,ginnel,1,steps,steps 2; entry 1; ginnel 1
+6,23,3,2,entry,2,,0,steps,entry 2; steps 1
+6,24,5,0,,0,,0,steps,steps 4; alley 1
+6,25,3,0,,0,,0,alley,alley 3
+6,26,2,1,ginnel,1,,0,steps,ginnel 1; steps 1
+6,29,11,9,wynd,9,,0,steps,wynd 9; steps 2
+6,30,17,17,wynd,10,chare,7,,wynd 10; chare 7
+6,31,13,10,wynd,5,chare,3,cut,wynd 5; chare 3; cut 2; lonnen 1; steps 1; vennel 1
+6,32,5,4,chare,2,lonnen,1,steps,chare 2; lonnen 1; steps 1; wynd 1
+7,2,3,0,,0,,0,steps,steps 2; passage 1
+7,3,2,0,,0,,0,passage,passage 2
+7,5,1,0,,0,,0,alley,alley 1
+7,11,2,0,,0,,0,passage,passage 1; steps 1
+7,18,5,0,,0,,0,passage,passage 4; steps 1
+7,19,1,0,,0,,0,steps,steps 1
+7,21,4,1,wynd,1,,0,passage,passage 2; steps 1; wynd 1
+7,22,1,1,snicket,1,,0,,snicket 1
+7,23,5,1,ginnel,1,,0,passage,passage 3; ginnel 1; steps 1
+7,24,5,2,entry,2,,0,alley,entry 2; alley 1; passage 1; steps 1
+7,25,5,2,tie,1,snicket,1,steps,steps 3; ginnel 1; snicket 1
+7,26,1,1,ginnel,1,,0,,ginnel 1
+7,28,4,3,wynd,3,,0,steps,wynd 3; steps 1
+7,29,1,1,wynd,1,,0,,wynd 1
+7,30,20,15,wynd,15,,0,cut,wynd 15; cut 4; steps 1
+7,31,8,8,chare,5,wynd,3,,chare 5; wynd 3
+8,2,10,6,ope,6,,0,passage,ope 6; passage 3; steps 1
+8,3,8,7,ope,5,drang,2,alley,ope 5; drang 2; alley 1
+8,4,3,1,drang,1,,0,passage,passage 2; drang 1
+8,7,1,0,,0,,0,steps,steps 1
+8,9,1,0,,0,,0,passage,passage 1
+8,11,3,0,,0,,0,alley,alley 1; passage 1; steps 1
+8,16,1,0,,0,,0,steps,steps 1
+8,17,2,1,shut,1,,0,alley,alley 1; shut 1
+8,18,23,3,shut,3,,0,passage,passage 14; steps 5; shut 3; alley 1
+8,19,1,0,,0,,0,steps,steps 1
+8,20,1,0,,0,,0,alley,alley 1
+8,21,4,0,,0,,0,passage,passage 2; alley 1; steps 1
+8,22,3,0,,0,,0,passage,passage 2; steps 1
+8,23,29,3,entry,2,ginnel,1,passage,passage 18; alley 4; steps 4; entry 2; ginnel 1
+8,24,1,0,,0,,0,steps,steps 1
+8,25,7,1,ginnel,1,,0,steps,steps 4; alley 1; ginnel 1; passage 1
+8,26,11,10,snicket,7,ginnel,3,passage,snicket 7; ginnel 3; passage 1
+8,27,4,1,wynd,1,,0,steps,steps 2; alley 1; wynd 1
+8,28,1,0,,0,,0,alley,alley 1
+8,29,4,4,wynd,4,,0,,wynd 4
+8,30,9,8,wynd,8,,0,alley,wynd 8; alley 1
+9,3,2,0,,0,,0,steps,steps 2
+9,5,1,0,,0,,0,steps,steps 1
+9,7,3,3,drang,2,ope,1,,drang 2; ope 1
+9,11,2,0,,0,,0,steps,steps 2
+9,12,1,0,,0,,0,alley,alley 1
+9,15,3,0,,0,,0,steps,steps 3
+9,18,2,0,,0,,0,alley,alley 2
+9,20,4,0,,0,,0,passage,passage 3; steps 1
+9,21,1,0,,0,,0,steps,steps 1
+9,22,1,0,,0,,0,passage,passage 1
+9,24,5,1,ginnel,1,,0,steps,steps 3; alley 1; ginnel 1
+9,25,10,4,ginnel,3,wynd,1,passage,ginnel 3; passage 3; steps 2; alley 1; wynd 1
+9,26,5,2,ginnel,2,,0,passage,ginnel 2; passage 2; steps 1
+9,30,1,0,,0,,0,steps,steps 1
+10,3,1,0,,0,,0,steps,steps 1
+10,4,1,0,,0,,0,steps,steps 1
+10,6,1,0,,0,,0,steps,steps 1
+10,9,1,1,drang,1,,0,,drang 1
+10,10,1,1,drang,1,,0,,drang 1
+10,11,2,0,,0,,0,alley,alley 1; steps 1
+10,12,2,1,gully,1,,0,alley,alley 1; gully 1
+10,16,1,0,,0,,0,steps,steps 1
+10,17,15,6,jitty,4,shut,2,steps,steps 7; jitty 4; alley 2; shut 2
+10,18,1,0,,0,,0,alley,alley 1
+10,19,5,0,,0,,0,passage,passage 4; alley 1
+10,20,17,4,entry,4,,0,passage,passage 11; entry 4; alley 2
+10,21,1,0,,0,,0,steps,steps 1
+10,23,3,1,ginnel,1,,0,passage,ginnel 1; passage 1; steps 1
+10,24,4,0,,0,,0,passage,passage 2; alley 1; steps 1
+10,25,1,0,,0,,0,alley,alley 1
+10,26,9,1,ginnel,1,,0,alley,alley 4; passage 4; ginnel 1
+10,29,11,0,,0,,0,steps,steps 11
+11,3,18,16,ope,16,,0,steps,ope 16; steps 2
+11,5,2,1,drang,1,,0,passage,drang 1; passage 1
+11,8,2,0,,0,,0,steps,steps 2
+11,10,5,0,,0,,0,steps,steps 3; alley 1; passage 1
+11,11,1,1,wynd,1,,0,,wynd 1
+11,13,1,0,,0,,0,alley,alley 1
+11,14,1,0,,0,,0,passage,passage 1
+11,16,7,0,,0,,0,alley,alley 3; passage 2; steps 2
+11,17,42,5,wynd,3,entry,2,passage,passage 30; alley 6; wynd 3; entry 2; steps 1
+11,18,5,0,,0,,0,alley,alley 3; steps 2
+11,19,1,1,jitty,1,,0,,jitty 1
+11,20,1,0,,0,,0,alley,alley 1
+11,21,9,3,jitty,2,entry,1,alley,alley 3; steps 3; jitty 2; entry 1
+11,22,7,3,ginnel,2,wynd,1,alley,alley 2; ginnel 2; passage 1; steps 1; wynd 1
+11,23,3,1,twitchel,1,,0,alley,alley 1; steps 1; twitchel 1
+11,24,1,0,,0,,0,alley,alley 1
+11,27,1,0,,0,,0,alley,alley 1
+11,28,8,0,,0,,0,steps,steps 7; passage 1
+12,2,1,0,,0,,0,alley,alley 1
+12,3,4,0,,0,,0,backway,backway 2; passage 2
+12,4,1,0,,0,,0,passage,passage 1
+12,5,4,0,,0,,0,steps,steps 3; passage 1
+12,6,2,0,,0,,0,alley,alley 1; steps 1
+12,8,1,0,,0,,0,passage,passage 1
+12,9,3,0,,0,,0,steps,steps 2; alley 1
+12,10,1,0,,0,,0,steps,steps 1
+12,11,1,0,,0,,0,steps,steps 1
+12,14,3,0,,0,,0,steps,steps 2; alley 1
+12,15,12,2,entry,2,,0,steps,steps 4; alley 3; passage 3; entry 2
+12,16,8,0,,0,,0,passage,passage 6; alley 1; steps 1
+12,17,44,0,,0,,0,passage,passage 38; alley 5; steps 1
+12,18,3,1,entry,1,,0,alley,alley 2; entry 1
+12,19,12,2,tie,1,twitchel,1,passage,passage 9; alley 1; jitty 1; twitchel 1
+12,20,5,0,,0,,0,alley,alley 3; steps 2
+12,21,6,2,tie,1,wynd,1,alley,alley 2; steps 2; twitchel 1; wynd 1
+12,23,1,1,snicket,1,,0,,snicket 1
+12,25,1,1,snicket,1,,0,,snicket 1
+12,27,2,1,snicket,1,,0,cut,cut 1; snicket 1
+13,2,5,0,,0,,0,steps,steps 5
+13,3,19,0,,0,,0,steps,steps 19
+13,4,1,0,,0,,0,steps,steps 1
+13,5,2,0,,0,,0,steps,steps 2
+13,6,1,0,,0,,0,passage,passage 1
+13,7,1,0,,0,,0,alley,alley 1
+13,10,27,5,gully,4,ginnel,1,steps,steps 16; gully 4; alley 3; passage 3; ginnel 1
+13,11,1,0,,0,,0,alley,alley 1
+13,12,1,0,,0,,0,alley,alley 1
+13,13,23,0,,0,,0,alley,alley 18; passage 4; steps 1
+13,14,4,0,,0,,0,alley,alley 3; steps 1
+13,15,3,1,entry,1,,0,alley,alley 1; entry 1; passage 1
+13,17,2,0,,0,,0,cut,cut 1; passage 1
+13,18,1,0,,0,,0,passage,passage 1
+13,19,7,4,jitty,3,twitchel,1,alley,jitty 3; alley 2; steps 1; twitchel 1
+13,20,5,0,,0,,0,passage,passage 2; steps 2; alley 1
+13,21,1,0,,0,,0,passage,passage 1
+13,22,1,1,twitchel,1,,0,,twitchel 1
+13,23,2,2,snicket,2,,0,,snicket 2
+13,25,9,3,entry,2,tenfoot,1,alley,alley 2; entry 2; passage 2; steps 2; tenfoot 1
+13,27,1,0,,0,,0,steps,steps 1
+14,5,1,1,entry,1,,0,,entry 1
+14,7,1,0,,0,,0,steps,steps 1
+14,8,6,3,drang,2,entry,1,backway,backway 2; drang 2; alley 1; entry 1
+14,9,2,0,,0,,0,passage,passage 1; steps 1
+14,10,4,0,,0,,0,passage,passage 2; steps 2
+14,11,1,0,,0,,0,steps,steps 1
+14,13,3,0,,0,,0,alley,alley 3
+14,14,1,0,,0,,0,alley,alley 1
+14,15,2,0,,0,,0,alley,alley 1; steps 1
+14,16,1,1,jitty,1,,0,,jitty 1
+14,17,5,4,jitty,2,entry,1,alley,jitty 2; alley 1; entry 1; twitten 1
+14,18,8,5,jitty,3,entry,1,passage,jitty 3; passage 2; alley 1; entry 1; wynd 1
+14,20,1,1,twitchel,1,,0,,twitchel 1
+14,21,6,5,jitty,5,,0,passage,jitty 5; passage 1
+14,22,11,0,,0,,0,passage,passage 11
+14,23,1,0,,0,,0,passage,passage 1
+14,24,1,0,,0,,0,alley,alley 1
+15,6,1,1,snicket,1,,0,,snicket 1
+15,7,1,0,,0,,0,alley,alley 1
+15,8,3,0,,0,,0,steps,steps 2; alley 1
+15,9,4,0,,0,,0,passage,passage 2; steps 2
+15,10,2,1,wynd,1,,0,steps,steps 1; wynd 1
+15,11,1,0,,0,,0,alley,alley 1
+15,13,1,0,,0,,0,passage,passage 1
+15,14,3,0,,0,,0,alley,alley 1; passage 1; steps 1
+15,16,1,1,jitty,1,,0,,jitty 1
+15,17,3,0,,0,,0,alley,alley 2; backway 1
+15,20,2,0,,0,,0,alley,alley 1; passage 1
+15,23,1,0,,0,,0,alley,alley 1
+16,4,3,3,ope,3,,0,,ope 3
+16,5,4,0,,0,,0,passage,passage 4
+16,6,2,1,entry,1,,0,passage,entry 1; passage 1
+16,7,2,0,,0,,0,alley,alley 1; passage 1
+16,8,2,0,,0,,0,backway,backway 2
+16,9,2,1,ginnel,1,,0,alley,alley 1; ginnel 1
+16,10,1,0,,0,,0,alley,alley 1
+16,11,2,0,,0,,0,alley,alley 1; passage 1
+16,13,3,0,,0,,0,alley,alley 3
+16,15,3,2,jitty,2,,0,passage,jitty 2; passage 1
+16,16,2,1,jitty,1,,0,passage,jitty 1; passage 1
+16,17,2,1,jitty,1,,0,passage,jitty 1; passage 1
+16,18,2,0,,0,,0,passage,passage 2
+16,19,1,0,,0,,0,passage,passage 1
+16,21,1,0,,0,,0,alley,alley 1
+16,22,2,0,,0,,0,alley,alley 1; passage 1
+17,5,2,0,,0,,0,passage,passage 1; steps 1
+17,6,1,1,lonnen,1,,0,,lonnen 1
+17,7,3,0,,0,,0,alley,alley 3
+17,10,1,0,,0,,0,passage,passage 1
+17,11,2,0,,0,,0,alley,alley 1; cut 1
+17,12,17,1,entry,1,,0,alley,alley 9; passage 7; entry 1
+17,13,2,0,,0,,0,alley,alley 2
+17,14,2,1,loke,1,,0,alley,alley 1; loke 1
+17,15,4,1,jitty,1,,0,alley,alley 2; backway 1; jitty 1
+17,17,2,1,jitty,1,,0,passage,jitty 1; passage 1
+17,20,1,0,,0,,0,passage,passage 1
+18,4,1,0,,0,,0,alley,alley 1
+18,5,5,0,,0,,0,steps,steps 5
+18,6,4,0,,0,,0,passage,passage 4
+18,9,1,0,,0,,0,alley,alley 1
+18,10,3,0,,0,,0,alley,alley 3
+18,11,1,0,,0,,0,alley,alley 1
+18,12,3,0,,0,,0,alley,alley 1; cut 1; passage 1
+18,13,2,1,loke,1,,0,alley,alley 1; loke 1
+18,14,5,4,jitty,3,loke,1,passage,jitty 3; loke 1; passage 1
+18,15,1,0,,0,,0,passage,passage 1
+18,16,5,0,,0,,0,passage,passage 5
+18,18,4,0,,0,,0,passage,passage 4
+19,6,3,0,,0,,0,passage,passage 2; cut 1
+19,7,11,0,,0,,0,passage,passage 8; alley 3
+19,8,1,0,,0,,0,passage,passage 1
+19,9,4,0,,0,,0,alley,alley 4
+19,10,3,0,,0,,0,alley,alley 2; passage 1
+19,11,5,0,,0,,0,alley,alley 4; passage 1
+19,12,7,2,tie,1,vennel,1,alley,alley 4; passage 1; snicket 1; vennel 1
+19,13,6,0,,0,,0,alley,alley 4; passage 2
+19,14,4,3,twitchel,2,wynd,1,alley,twitchel 2; alley 1; wynd 1
+19,15,1,0,,0,,0,alley,alley 1
+19,16,4,0,,0,,0,passage,passage 4
+19,18,8,0,,0,,0,alley,alley 5; backway 2; passage 1
+20,5,7,0,,0,,0,passage,passage 3; alley 2; steps 2
+20,6,6,0,,0,,0,alley,alley 4; passage 1; steps 1
+20,8,7,0,,0,,0,alley,alley 5; passage 1; steps 1
+20,9,6,1,snicket,1,,0,alley,alley 4; passage 1; snicket 1
+20,10,9,0,,0,,0,passage,passage 4; steps 3; alley 2
+20,11,14,1,ope,1,,0,alley,alley 5; passage 4; steps 4; ope 1
+20,12,7,0,,0,,0,alley,alley 5; slype 2
+20,15,13,0,,0,,0,passage,passage 9; alley 2; backway 1; steps 1
+20,16,3,0,,0,,0,passage,passage 2; alley 1
+20,18,1,1,loke,1,,0,,loke 1
+20,19,1,1,entry,1,,0,,entry 1
+20,20,6,4,loke,4,,0,alley,loke 4; alley 2
+21,4,3,0,,0,,0,steps,steps 3
+21,6,2,2,twitten,2,,0,,twitten 2
+21,7,2,0,,0,,0,alley,alley 2
+21,8,7,0,,0,,0,passage,passage 3; alley 2; steps 2
+21,9,8,0,,0,,0,alley,alley 5; passage 2; steps 1
+21,10,113,1,twitten,1,,0,passage,passage 73; alley 35; steps 4; twitten 1
+21,11,166,1,entry,1,,0,passage,passage 112; alley 41; steps 12; entry 1
+21,12,4,0,,0,,0,alley,alley 4
+21,14,1,0,,0,,0,passage,passage 1
+21,15,1,0,,0,,0,passage,passage 1
+21,17,2,1,loke,1,,0,alley,alley 1; loke 1
+21,18,9,7,loke,7,,0,alley,loke 7; alley 2
+21,19,21,18,loke,18,,0,alley,loke 18; alley 3
+21,20,9,7,loke,7,,0,steps,loke 7; steps 2
+22,6,3,0,,0,,0,passage,passage 2; alley 1
+22,7,3,1,twitten,1,,0,alley,alley 1; passage 1; twitten 1
+22,8,5,2,twitten,2,,0,alley,alley 3; twitten 2
+22,9,9,0,,0,,0,steps,steps 4; alley 3; passage 2
+22,10,85,0,,0,,0,passage,passage 54; alley 24; steps 7
+22,11,4,0,,0,,0,passage,passage 3; alley 1
+22,12,1,0,,0,,0,alley,alley 1
+22,14,1,0,,0,,0,alley,alley 1
+22,17,12,12,loke,10,entry,2,,loke 10; entry 2
+22,18,54,30,loke,30,,0,alley,loke 30; alley 20; steps 4
+22,19,33,33,loke,33,,0,,loke 33
+23,6,5,1,twitten,1,,0,passage,passage 3; steps 1; twitten 1
+23,7,10,9,twitten,9,,0,cut,twitten 9; cut 1
+23,8,3,2,twitten,2,,0,alley,twitten 2; alley 1
+23,9,3,0,,0,,0,steps,steps 3
+23,10,3,0,,0,,0,alley,alley 3
+23,11,2,1,wynd,1,,0,steps,steps 1; wynd 1
+23,12,3,0,,0,,0,passage,passage 2; cut 1
+23,13,9,1,wynd,1,,0,passage,passage 4; alley 2; steps 2; wynd 1
+23,15,1,1,entry,1,,0,,entry 1
+23,16,2,2,tie,1,loke,1,,entry 1; loke 1
+23,17,18,17,loke,17,,0,alley,loke 17; alley 1
+23,18,28,26,loke,26,,0,alley,loke 26; alley 2
+23,19,5,5,loke,5,,0,,loke 5
+24,6,25,6,twitten,6,,0,passage,passage 13; twitten 6; steps 5; alley 1
+24,7,2,2,twitten,2,,0,,twitten 2
+24,8,8,2,tie,1,wynd,1,passage,passage 4; alley 1; steps 1; twitten 1; wynd 1
+24,9,4,0,,0,,0,alley,alley 4
+24,10,4,0,,0,,0,alley,alley 3; cut 1
+24,12,1,0,,0,,0,alley,alley 1
+24,13,1,0,,0,,0,alley,alley 1
+24,14,2,0,,0,,0,alley,alley 1; steps 1
+24,15,1,0,,0,,0,alley,alley 1
+24,17,25,21,loke,21,,0,alley,loke 21; alley 2; passage 1; steps 1
+24,18,6,4,loke,4,,0,passage,loke 4; passage 2
+25,6,2,0,,0,,0,cut,cut 1; passage 1
+25,7,2,2,twitten,2,,0,,twitten 2
+25,8,1,0,,0,,0,alley,alley 1
+25,9,2,1,wynd,1,,0,alley,alley 1; wynd 1
+25,10,10,0,,0,,0,alley,alley 5; passage 4; cut 1
+25,13,2,0,,0,,0,alley,alley 1; steps 1
+25,15,2,0,,0,,0,alley,alley 1; steps 1
+25,16,2,0,,0,,0,alley,alley 2
+26,6,40,3,twitten,3,,0,passage,passage 22; steps 11; alley 3; twitten 3; cut 1
+26,7,6,0,,0,,0,passage,passage 3; steps 3
+26,8,3,0,,0,,0,passage,passage 3
+26,9,26,0,,0,,0,alley,alley 24; passage 2
+27,8,13,0,,0,,0,passage,passage 7; steps 5; alley 1
+27,9,18,0,,0,,0,alley,alley 17; passage 1
+27,10,10,0,,0,,0,passage,passage 5; alley 3; steps 2
+28,8,2,0,,0,,0,passage,passage 2

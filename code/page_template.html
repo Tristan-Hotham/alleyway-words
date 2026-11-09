@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ginnel, snicket or twitten? | Britain's words for an alley, on the street signs</title>
+<meta name="description" content="Every named alley in the UK, coloured by the word in its name: ginnel, snicket, twitten, jitty, chare, wynd, close, loke, ope and shut, mapped from OpenStreetMap.">
+<meta property="og:title" content="Ginnel, snicket or twitten?">
+<meta property="og:description" content="{{words.twitten.home_pc|pc}} of the UK's named twittens are in Sussex and {{words.loke.home_pc|pc}} of its lokes in Norfolk and Suffolk. {{n.alleys|int}} named alleys, mapped by the word in their name.">
+<meta property="og:image" content="https://maps.tristanhotham.com/alleyway-words/header.png">
+<meta property="og:url" content="https://maps.tristanhotham.com/alleyway-words/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=MedievalSharp&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+{{CSS}}
+.pane{background:#F2F0EA}
+.pane::after{box-shadow:none}
+.lp{top:104px}
+.keys{bottom:30px;max-height:calc(100% - 200px);overflow:auto}
+.key .dot{width:11px;height:11px;border-radius:50%;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(43,33,25,.35);flex:none}
+.key .nt{color:#7A6A52;margin-left:auto;padding-left:6px}
+.maplibregl-popup-content .sw{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin-right:5px;border:1px solid #fff;box-shadow:0 0 0 1px rgba(43,33,25,.35)}
+.note-area{position:absolute;right:54px;bottom:30px;z-index:4;background:rgba(255,255,255,.92);border:1px solid #9C8656;border-radius:3px;padding:5px 8px;font:400 11.5px/1.3 var(--mono);color:#6E604E;max-width:260px}
+@media (max-width:800px){.note-area{display:none}.keys{display:block;left:8px;bottom:8px;max-height:24%;max-width:48%;font-size:10px;padding:5px 7px}.key b{font-size:13px}.maplibregl-ctrl-bottom-right{bottom:0}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="tb-name" href="#mapWrap">Ginnel, snicket or twitten?</a>
+  <span class="tb-k">Data study · 2026</span>
+  <nav class="tb-links"><a href="#essay">About</a><button class="theme" id="theme" aria-label="Toggle dark mode">◐</button><a href="https://doi.org/10.5281/zenodo.24086513">Paper</a><a class="x" href="{{REPO}}">Data and code</a></nav>
+</div>
+<div class="mapband">
+  <div class="pane" id="mapWrap" data-fullscreen-map role="application" aria-label="Map of the named alleys of the UK coloured by the word in their name">
+    <div id="map"></div>
+    <div class="nojs" id="nojs">Loading the map. It needs JavaScript and WebGL.</div>
+    <div class="cartouche" id="cartouche">
+      <button class="ct-toggle" id="ctToggle" aria-expanded="true" title="Show the title">Ginnel, snicket or twitten? <span aria-hidden="true">▾</span></button>
+      <button class="ct-fold" id="ctFold" title="Fold the title" aria-label="Fold the title">▴</button>
+      <div class="ct-body">
+        <div class="kicker"><b>Data study</b><span>2026</span></div>
+        <h1>Ginnel, snicket or <span class="a">twitten?</span></h1>
+        <p class="dek">Every named alley in the UK, {{n.alleys|int}} of them, coloured by the word in its name. Grey dots are the general words: alley, passage, steps. Pick a word, turn on the hexagons, or tap a dot.</p>
+        <div class="byline">{{BYLINE}}</div>
+      </div>
+    </div>
+    <div class="ov ov-top">
+      <div class="srch"><input type="search" id="q" placeholder="Find a town or an alley" aria-label="Find a town or an alley" autocomplete="off"><ul class="sug" id="sug" role="listbox"></ul></div>
+      <div class="chips">{{CHIPS}}<button class="chip lyr" id="lyrBtn" aria-expanded="false" aria-controls="lp">Layers</button></div>
+    </div>
+    <div class="lp" id="lp" role="dialog" aria-label="Map layers">
+      <h4>Layers</h4>
+      <h5>Named alleys</h5>
+      <label><input type="checkbox" id="ckReg" checked> Regional words (ginnel, wynd, loke...)</label>
+      <label><input type="checkbox" id="ckGen" checked> General words (alley, passage, steps)</label>
+      <label><input type="checkbox" id="ckLab" checked> Names when zoomed in</label>
+      <h5>Areas</h5>
+      <label><input type="checkbox" id="ckHex"> 20 km hexagons: commonest regional word</label>
+    </div>
+    <div class="keys" id="keys"><div class="key" id="key"></div></div>
+    <div class="note-area">Covers the whole UK. Only alleys with a name in OpenStreetMap; most alleys have none.</div>
+  </div>
+</div>
+<div class="wrap" id="essay">
+<p class="lede" style="margin-top:6px">Britain has more words for the narrow path between two houses than for almost anything else in the street. A ginnel in Manchester is a snicket in York, a twitten in Brighton, a jitty in Leicester, a chare in Newcastle, a wynd or a close in Edinburgh and a loke in Norwich. People argue about them happily. But most of that is talk. What does the street sign say?</p>
+<p>I took every highway in OpenStreetMap in the UK whose name ends in one of these words, joined the pieces of each alley together, threw out the false friends (a jetty that is a pier, a cut that is a canal, an entry that is a racing pit lane) and was left with {{n.alleys|int}} named alleys. {{n.regional|int}} of them carry a regional word; the rest are plain alleys, passages and steps.</p>
+<div class="byline">{{BYLINE}} · Data: OpenStreetMap contributors (ODbL), Wikidata (CC0), ONS boundaries (OGL) · Base map: OpenFreeMap Positron</div>
+<div class="stats">
+<div class="stat"><b>{{words.twitten.home_pc|pc}}</b><span>of the UK's {{words.twitten.n|int}} named twittens are in Sussex</span></div>
+<div class="stat"><b>{{words.loke.home_pc|pc}}</b><span>of its {{words.loke.n|int}} lokes are in Norfolk and Suffolk</span></div>
+<div class="stat"><b>{{words.chare.n|int}}</b><span>chares, every one in the North East; {{words.chare.top_town_n|int}} in Newcastle</span></div>
+<div class="stat"><b>{{london.general_pc|pc}}</b><span>of London's {{london.n|int}} named alleys are just an alley, a passage or steps</span></div>
+</div>
+
+<h2><span class="n">01 · The word on the street sign</span>Scotland names its alleys, England mostly does not</h2>
+<p>The map of street signs is lopsided. Of Scotland's {{nations.Scotland.n|int}} named alleys, {{nations.Scotland.regional_pc|pc}} carry a regional word, nearly all of them <a href="#" data-w="wynd">wynd</a>, <a href="#" data-w="close">close</a>, <a href="#" data-w="vennel">vennel</a> or <a href="#" data-w="pend">pend</a>. In England it is {{nations.England.regional_pc|pc}} of {{nations.England.n|int}}, and in Wales only {{nations.Wales.regional_pc|pc}}. London has {{london.n|int}} named alleys, more than anywhere else, and only {{london.regional_n|int}} of them use a regional word. The rest are {{london.passage_n|int}} passages, {{london.alley_n|int}} alleys and a scattering of steps.</p>
+<div class="figure"><img src="img/hexmap.jpg" alt="Map of the UK in 20 km hexagons coloured by the commonest regional alley word: wynd across lowland Scotland, chare on Tyneside, loke in Norfolk, jitty in the East Midlands, ope around Plymouth and twitten in Sussex" loading="lazy"><p class="src">The commonest regional word in each 20 km hexagon with at least three named alleys that use one.</p></div>
+<p>The wynd dominates: {{words.wynd.n|int}} of them, {{wynd.scotland_n|int}} in Scotland and {{wynd.ne_england_n|int}} in the North East of England and North Yorkshire. But only {{wynd.path_pc|pc}} are footpaths. The rest are roads, many of them on new housing estates in Fife, Lanarkshire and Ayrshire: the old word for a narrow lane off a high street has become a builder's favourite for a cul-de-sac. The Scottish close is the opposite. I counted only footpaths named Close in Scotland, since in England a Close is usually a cul-de-sac, and {{close.edinburgh_n|int}} of the {{words.close.n|int}} are in Edinburgh, mostly the closes running down from the Royal Mile.</p>
+
+<h2><span class="n">02 · Home ground</span>Twitten, loke, chare, ope and shut</h2>
+<p>Where a regional word does reach the street sign, it stays at home. {{sussex_twitten_n|int}} of the {{words.twitten.n|int}} <a href="#" data-w="twitten">twittens</a> are in East or West Sussex, with Haywards Heath, Burgess Hill and Lewes leading. {{words.loke.home_pc|pc}} of the {{words.loke.n|int}} <a href="#" data-w="loke">lokes</a> are in Norfolk or Suffolk ({{norfolk_loke_pc|pc}} in Norfolk alone), with {{words.loke.top_town_n|int}} around North Walsham. All {{words.chare.n|int}} <a href="#" data-w="chare">chares</a> are in Tyne and Wear, Durham or Northumberland, {{words.chare.top_town_n|int}} of them in Newcastle, where the chares run up from the Quayside. {{words.ope.home_pc|pc}} of the {{words.ope.n|int}} <a href="#" data-w="ope">opes</a> are in Devon, Cornwall or Dorset: {{words.ope.top_town_n|int}} in Plymouth, more in Truro and Falmouth, and three on Portland. All {{words.shut.n|int}} <a href="#" data-w="shut">shuts</a> are in Shropshire, three of them in Shrewsbury.</p>
+<div class="figure"><img src="img/small.jpg" alt="Small maps of Britain, one for each regional alley word, showing tight clusters: twittens in Sussex, lokes in Norfolk, chares on Tyneside, opes in Plymouth, wynds and closes in Scotland" loading="lazy"><p class="src">Every named alley with each regional word.</p></div>
+<p>The <a href="#" data-w="jitty">jitty</a> belongs to the East Midlands: {{words.jitty.home_pc|pc}} of {{words.jitty.n|int}} are in Leicestershire, Northamptonshire, Lincolnshire, Derbyshire and their neighbours, with four in Loughborough. I counted a <em>jetty</em> as a jitty only there, since everywhere else a jetty is a pier. There is also a small cluster of jitties around Broseley and Madeley in the Ironbridge Gorge. The <a href="#" data-w="ginnel">ginnel</a> is northern ({{words.ginnel.home_pc|pc}} of {{words.ginnel.n|int}} in the northern counties, a third in West Yorkshire), and the <a href="#" data-w="lonnen">lonnen</a>, a Northumbrian lane rather than an alley, is almost all on Tyneside and in Northumberland.</p>
+
+<h2><span class="n">03 · Where the words meet</span>Ginnels in Leeds, snickets in Wharfedale</h2>
+<p>The famous Yorkshire border is between the ginnel and the snicket. On the street signs, Yorkshire has {{yorks.ginnel|int}} ginnels and {{yorks.snicket|int}} snickets. The ginnels are in Leeds, Huddersfield, Harrogate, Skipton and round about. {{wharfedale.snicket|int}} of the snickets are in one place: a cluster of paths named simply Snicket around Burley in Wharfedale, between Ilkley and Otley, {{wharfedale.min_km|f1}} km from the nearest ginnel at Yeadon. That is a real line on the ground, but it is also a reminder of what this data is: a handful of paths named by one parish or one mapper can make a whole dialect area. York, home of the snickelway, has none named snicket at all.</p>
+<div class="figure"><img src="img/meet.jpg" alt="Three maps: ginnels around Leeds and a cluster of snickets near Otley and Ilkley; chares in Newcastle and Durham among wynds and lonnens; twittens across Sussex among passages and steps" loading="lazy"><p class="src">Where words meet: Leeds and Wharfedale, Tyneside and Durham, and Sussex.</p></div>
+<p>On Tyneside three words share the map: chares on the Quayside and in Durham's towns, lonnens on the edges, and wynds, many of them on newer estates. In Sussex the twittens are a country and small-town word, from Haywards Heath to the villages of the Weald, while Brighton and Hastings call most of their alleys passages or steps.</p>
+
+<h2><span class="n">04 · Towns</span>Edinburgh, London and the rest</h2>
+<p>Counting alleys within 6 km of a town's centre (and the whole of Greater London as London), the most named alleys are in London ({{towns_all.0.n|int}}), Edinburgh ({{towns_all.1.n|int}}) and Hastings ({{towns_all.2.n|int}}). Edinburgh has the most with a regional word, {{towns_regional.0.regional|int}}, and the widest mix: {{towns_most_words.0.words|int}} different words. Then come the Fife and Tayside towns, Kirkcaldy, Dundee and Aberdeen, with their wynds, and Elgin, whose closes run off its high street.</p>
+<div class="figure"><img src="img/towns.jpg" alt="Bar chart of the fifteen towns with the most named alleys: London far ahead with passages and alleys, then Edinburgh with closes and wynds, Hastings, Kirkcaldy, Birmingham and Dundee" loading="lazy"><p class="src">The towns with the most named alleys, by word.</p></div>
+
+<h2><span class="n">05 · Street names are not speech</span>The words that never reach the sign</h2>
+<p>This map is of names, and names are official: chosen by councils, builders and, long ago, by whoever owned the land. They are not a record of what people say. The general picture matches the regional labels the dialect dictionaries give for these words, from the twitten of Sussex to the chare of the North East. But some of the best known words barely appear. No alley in the data is named jigger, in Liverpool or anywhere else (the word was in the search), there is a single <a href="#" data-w="tenfoot">tenfoot</a> near Hull, and no <a href="#" data-w="gully">gully</a> in Birmingham (half of the six in the data are in Bristol). These are the words for the back alley behind a terrace, which hardly ever had a name of its own. The names that survive belong to the older lanes of town centres and to the fashions of developers.</p>
+<details><summary>Other maps of words</summary><p>The street-names study maps the commonest street names and their endings across Britain: <a href="https://maps.tristanhotham.com/street-names/">maps.tristanhotham.com/street-names</a>. For speech rather than signs, see the bread-roll map, from survey answers: <a href="https://maps.tristanhotham.com/bread-rolls/">Barm, bap, cob or roll?</a></p></details>
+<div class="figure"><img src="img/words.jpg" alt="Bar chart on a log scale of the number of named alleys for each word: wynd 957, passage, alley, steps and close in the hundreds, and ginnel, snicket, twitten and jitty in the tens" loading="lazy"><p class="src">How many named alleys carry each word, and how many of them are footpaths rather than roads.</p></div>
+
+<h2><span class="n">06 · How I did this</span>Head words, false friends and merged pieces</h2>
+<p><b>Names.</b> The raw data is {{n.ways_raw|int}} OpenStreetMap highways in the UK whose names include one of the words, queried with QLever. A name counts for a word only when the word is its head, the last word once house numbers, brackets and trailing route notes are removed. So Twitten Lane, Jetty Road and Chare Bank do not count. Close counts only for footpaths in Scotland. OpenStreetMap often maps one alley in several pieces, so pieces with the same name whose first points chain within 150 m were joined into one alley, and pieces of a road or of a name with a specific part (Cornish Snicket) within 600 m. That joined {{n.merged_ways|int}} pieces.</p>
+<p><b>False friends.</b> I read every alley of the ambiguous words. A jetty counts only in the East Midlands and next door; elsewhere it is a pier. A cut counts only as a footpath, never New Cut (a canal, a drain or a new road), an old railway cutting or a street such as The Cut in Southwark. Steps on a hill path far from a town are left out. By hand I removed climbing gullies and mountain bike trails called Gully, Alley or Steps, cave passages under a Welsh mountain, Tarr Steps (a clapper bridge), racing pit lanes called Entry, an aqueduct called the Greenock Cut and a Welsh field name, Parc y Shut. Three misspelt or doubled names were joined to their twins. In all {{n.dropped|int}} of {{n.candidates|int}} candidates ({{n.dropped_pc|pc1}}) went, {{n.dropped_by_hand|int}} of them by hand.</p>
+<p><b>What this cannot say.</b> Most alleys have no name at all, and OpenStreetMap names some places more thoroughly than others. A dot marks where the first piece of each alley begins. The towns are Wikidata settlements of 10,000 people or more, and each alley goes to the nearest town centre, so an alley on the edge of a city can be counted to its neighbour. The search matched only the words listed here, and found Close only on footpaths, so a word left out of the list cannot appear. The dialect sources are background: I have not compared these dots with their maps.</p>
+<details><summary>Sources and licences</summary>
+<ul class="plain">
+<li>Alleys: © OpenStreetMap contributors (ODbL), queried with QLever (University of Freiburg). The alley tables here are derived from OpenStreetMap and released under the ODbL.</li>
+<li>Towns: Wikidata (CC0). Counties: ONS boundaries (Open Government Licence v3.0).</li>
+<li>Dialect background: J. Wright, The English Dialect Dictionary (1898 to 1905); H. Orton and E. Dieth, Survey of English Dialects (1962 to 1971); C. Upton, S. Sanderson and J. Widdowson, Word Maps: A Dialect Atlas of England (1987); C. Upton, D. Parry and J. D. A. Widdowson, Survey of English Dialects: The Dictionary and Grammar (1994); C. Upton and J. D. A. Widdowson, An Atlas of English Dialects (1996); the Dictionary of the Scots Language.</li>
+<li>Base map: OpenFreeMap Positron style, from OpenStreetMap vector tiles (ODbL). MapLibre GL JS 4.7.1 (BSD 3-Clause).</li>
+<li>Text and figures CC BY 4.0; code MIT.</li>
+</ul></details>
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.24086513">Read the paper</a><a href="{{REPO}}">Data and code</a><a href="https://blog.tristanhotham.com/2026/10/31/alleyway-words/">Blog post</a></div>
+<footer>
+<p>Dr Tristan Hotham, Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+<p>Cite as: Hotham, T. (2026) Ginnel, snicket or twitten? The regional words for an alley on the street signs of the United Kingdom. Zenodo. <a href="https://doi.org/10.5281/zenodo.24086513">10.5281/zenodo.24086513</a></p>
+<p>Code: <a href="{{REPO}}">github.com/Tristan-Hotham/alleyway-words</a> (MIT). Text and figures CC BY 4.0; derived data ODbL (OpenStreetMap).</p>
+<p>{{AI}}</p>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/page.js?v={{VERSION}}"></script>
+{{FULLSCREEN}}
+<script src="https://maps.tristanhotham.com/assets/site-nav.js" defer></script>
+</body>
+</html>

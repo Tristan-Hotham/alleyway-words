@@ -1,0 +1,114 @@
+<!-- wp:paragraph -->
+<p><em>A ginnel in Manchester, a snicket in Leeds, a twitten in Brighton, a jitty in Leicester, a chare in Newcastle, a wynd in Edinburgh. Britain argues happily about its words for an alley. I mapped every named alley in the UK to see which of those words actually made it onto the street signs.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/alleyway-words/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24086513">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Every few months someone online asks what you call the narrow path between two rows of houses, and the replies come in from all over: ginnel, snicket, twitten, twitchel, jitty, gitty, chare, wynd, close, vennel, pend, entry, loke, jigger, shut, ope, drang, tenfoot. It is one of the great dialect questions. But those answers are about speech. I wanted to know something different: when an alley has an official name, which word does the name use?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>So I took every highway in OpenStreetMap in the UK whose name ends in one of these words, stitched the pieces of each alley together, threw out the false friends, and ended up with {{n.alleys|int}} named alleys. {{n.regional|int}} of them use a regional word. The rest are plain alleys, passages and steps.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Scotland names its alleys, England mostly does not</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The first surprise is how lopsided it is. In Scotland {{nations.Scotland.regional_pc|pc}} of named alleys carry a regional word, nearly all of them wynd, close, vennel or pend. In England it is {{nations.England.regional_pc|pc}}. London has more named alleys than anywhere, {{london.n|int}} of them, and only {{london.regional_n|int}} use a regional word. Everything else in the capital is a passage or an alley.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_hexmap.png|Map of the UK in 20 km hexagons coloured by the commonest regional alley word: wynd across lowland Scotland, chare on Tyneside, loke in Norfolk, jitty in the East Midlands, ope around Plymouth and twitten in Sussex|The commonest regional alley word in each 20 km hexagon.}}
+
+<!-- wp:paragraph -->
+<p>The wynd is the commonest word of all, with {{words.wynd.n|int}}. But only {{wynd.path_pc|pc}} of wynds are actually footpaths. Most are roads on newer housing estates in Fife, Lanarkshire and Ayrshire: the old name for a narrow lane off the high street has become a developer's favourite. The Scottish close went the other way. I only counted footpaths called Close in Scotland, because in England a Close is a cul-de-sac, and {{close.edinburgh_n|int}} of the {{words.close.n|int}} are in Edinburgh, mostly running down off the Royal Mile.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Every word stays at home</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Where an English regional word does reach the sign, it sits tightly in its home ground. {{sussex_twitten_n|int}} of the {{words.twitten.n|int}} twittens are in Sussex. {{words.loke.home_pc|pc}} of the {{words.loke.n|int}} lokes are in Norfolk and Suffolk, with {{words.loke.top_town_n|int}} around North Walsham alone. Every one of the {{words.chare.n|int}} chares is in the North East, {{words.chare.top_town_n|int}} of them in Newcastle where they climb up from the Quayside. {{words.ope.top_town_n|int}} of the {{words.ope.n|int}} opes are in Plymouth, and most of the rest are in Truro, Falmouth and on Portland. All {{words.shut.n|int}} shuts are in Shropshire, three in Shrewsbury. The jitty is East Midlands through and through, with a little outpost in the Ironbridge Gorge.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_small.png|Small maps of Britain, one for each regional alley word, showing tight clusters: twittens in Sussex, lokes in Norfolk, chares on Tyneside, opes in Plymouth, wynds and closes in Scotland|Every named alley with each regional word.}}
+
+<!-- wp:pullquote -->
+<figure class="wp-block-pullquote"><blockquote><p>{{london.n|int}} named alleys in London, and only {{london.regional_n|int}} of them use a regional word.</p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Ginnel or snicket?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yorkshire's great argument is between the ginnel and the snicket. On the street signs there are {{yorks.ginnel|int}} ginnels and {{yorks.snicket|int}} snickets in Yorkshire. The ginnels are scattered around Leeds, Huddersfield, Harrogate and Skipton. {{wharfedale.snicket|int}} of the snickets are paths named simply Snicket around Burley in Wharfedale, about {{wharfedale.min_km|f0}} km from the nearest ginnel at Yeadon. It looks like a neat dialect border, and it might be, but it is also a handful of paths that one parish or one keen mapper named. York, the home of the snickelway, has no alley named snicket at all.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_meet.png|Three maps: ginnels around Leeds and a cluster of snickets near Otley and Ilkley; chares in Newcastle and Durham among wynds and lonnens; twittens across Sussex among passages and steps|Where the words meet: Leeds and Wharfedale, Tyneside and Durham, and Sussex.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The words that never reach the sign</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The most interesting result might be what is missing. No alley in the data is named jigger, in Liverpool or anywhere else, although I searched for the word. There is a single tenfoot, near Hull. There is no gully in Birmingham. These are the words for the back alley behind a Victorian terrace, the strip where the bins go, and those alleys hardly ever got a name of their own. The words survive in speech, not on signs. The names that do survive belong to the old lanes of town centres, the chares and closes and opes, and to the street names that developers choose for a bit of local colour.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_towns.png|Bar chart of the fifteen towns with the most named alleys: London far ahead with passages and alleys, then Edinburgh with closes and wynds, Hastings, Kirkcaldy, Birmingham and Dundee|The towns with the most named alleys, split by word.}}
+
+<!-- wp:paragraph -->
+<p>If you like this sort of thing, I have also mapped Britain's <a href="https://maps.tristanhotham.com/street-names/">street names</a> and, for words people actually say, the <a href="https://maps.tristanhotham.com/bread-rolls/">barm, bap, cob or roll</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The names come from OpenStreetMap, queried with QLever. A name counts for a word only if the word comes last, so Twitten Lane and Jetty Road do not count, but The Twitten and Ginnel No 7 do. OpenStreetMap often maps one alley in several pieces, so I joined pieces with the same name that sit within 150 metres of each other (a little further for roads). Then I read every alley with an ambiguous word. A jetty only counts as a jitty in the East Midlands, because everywhere else it is a pier. A cut only counts if it is a footpath, so The Cut in Southwark, a street, is out. Out went climbing gullies in the Lake District, mountain bike trails in Wales and Sherwood, cave passages under a Welsh mountain, Tarr Steps on Exmoor (a clapper bridge), racing pit lanes called Entry, an old aqueduct called the Greenock Cut and a Welsh field called Parc y Shut. In all {{n.dropped|int}} of {{n.candidates|int}} candidates went.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The caveats matter. Street names are official names, not speech, so this is a map of what reached the sign, not of what people say. Most alleys have no name at all. OpenStreetMap is mapped by volunteers, and some places are named far more thoroughly than others. Some of the rarer words rest on a handful of paths. So treat the big patterns as the finding and single dots as leads. And if your local ginnel has a name that I have missed, I would love to hear about it.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_words.png|Bar chart on a log scale of the number of named alleys for each word, from wynd with nearly a thousand down to tenfoot with one, and the share that are footpaths|How many named alleys carry each word, and how many are footpaths.}}
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/alleyway-words/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24086513">Read the paper</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/alleyway-words">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Notes and sources</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Alleys: <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL), queried with QLever. Towns: Wikidata (CC0). Counties: ONS boundaries (Open Government Licence v3.0).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Dialect background: J. Wright, The English Dialect Dictionary (1898 to 1905); H. Orton and E. Dieth, Survey of English Dialects (1962 to 1971); C. Upton, S. Sanderson and J. Widdowson, Word Maps: A Dialect Atlas of England (1987); C. Upton, D. Parry and J. D. A. Widdowson, Survey of English Dialects: The Dictionary and Grammar (1994); C. Upton and J. D. A. Widdowson, An Atlas of English Dialects (1996); the Dictionary of the Scots Language. These are background: the map is of street names, not compared with their maps.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
